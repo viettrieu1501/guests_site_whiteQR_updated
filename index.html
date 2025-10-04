@@ -1,0 +1,2669 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danh sách đại biểu</title>
+  <style>
+    :root {
+      --fg:#0b0b0b;
+      --muted:#5a5a5a;
+      --border:#e6e6e6;
+      --thead:#f5f5f5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0; padding:24px;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      color:var(--fg);
+    }
+    h1 {
+      margin:0 0 10px; font-size:36px;
+    }
+    p.note { margin: 0 0 20px; color:var(--muted) }
+    table {
+      width:100%; border-collapse: collapse;
+    }
+    th, td {
+      border:1px solid var(--border);
+      padding:14px 12px;
+      vertical-align: middle;
+      font-size:18px;
+    }
+    thead th {
+      background: var(--thead);
+      text-align:left;
+      font-weight:700;
+    }
+    td.uid { width: 90px; white-space:nowrap; color:#444 }
+    td.seat { width: 90px; font-weight:700 }
+    td.qr { width: 260px; text-align:center; }
+    td.qr img { height:220px; width:220px; object-fit:contain; border: 14px solid #fff; background:#fff; }
+    td.link { width: 90px; }
+    a { color:#5a3df0; }
+    @media (max-width: 980px) {
+      td.qr { width: 180px; }
+      td.qr img { height:160px; width:160px; }
+      th, td { font-size:16px; padding:10px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Danh sách đại biểu</h1>
+  <p class="note">Scan QR → mở trang HTML chỉ hiển thị Tên – Chức vụ – Ghế.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>UID</th>
+        <th>Tên</th>
+        <th>Chức vụ</th>
+        <th>Ghế</th>
+        <th>QR</th>
+        <th>Trang</th>
+      </tr>
+    </thead>
+    <tbody>
+  <tr>
+    <td class="uid">0001</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BỘ QUỐC PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">A1</td>
+    <td class="qr"><img src="qr/0001_AI_BIEU_LANH_AO_BO_QUOC_PHONG.png" alt="QR 0001"></td>
+    <td class="link"><a href="guests/0001_AI_BIEU_LANH_AO_BO_QUOC_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0002</td>
+    <td class="name">THƯỢNG TƯỚNG PHẠM HOÀI NAM</td>
+    <td class="title">THỨ TRƯỞNG BỘ QUỐC PHÒNG</td>
+    <td class="seat">A3</td>
+    <td class="qr"><img src="qr/0002_THUONG_TUONG_PHAM_HOAI_NAM.png" alt="QR 0002"></td>
+    <td class="link"><a href="guests/0002_THUONG_TUONG_PHAM_HOAI_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0003</td>
+    <td class="name">ĐẠI BIỂU THỦ TRƯỞNG BỘ TỔNG THAM MƯU</td>
+    <td class="title"></td>
+    <td class="seat">A5</td>
+    <td class="qr"><img src="qr/0003_AI_BIEU_THU_TRUONG_BO_TONG_THAM_MUU.png" alt="QR 0003"></td>
+    <td class="link"><a href="guests/0003_AI_BIEU_THU_TRUONG_BO_TONG_THAM_MUU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0004</td>
+    <td class="name">ĐẠI BIỂU THỦ TRƯỞNG TỔNG CỤC CHÍNH TRỊ</td>
+    <td class="title"></td>
+    <td class="seat">A7</td>
+    <td class="qr"><img src="qr/0004_AI_BIEU_THU_TRUONG_TONG_CUC_CHINH_TRI.png" alt="QR 0004"></td>
+    <td class="link"><a href="guests/0004_AI_BIEU_THU_TRUONG_TONG_CUC_CHINH_TRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0005</td>
+    <td class="name">THƯỢNG TƯỚNG TRƯƠNG THIÊN TÔ</td>
+    <td class="title">PHÓ CN TỔNG CỤC CHÍNH TRỊ, NGUYÊN PHÓ CHÍNH UỶ QUÂN KHU</td>
+    <td class="seat">A9</td>
+    <td class="qr"><img src="qr/0005_THUONG_TUONG_TRUONG_THIEN_TO.png" alt="QR 0005"></td>
+    <td class="link"><a href="guests/0005_THUONG_TUONG_TRUONG_THIEN_TO.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0006</td>
+    <td class="name">TRUNG TƯỚNG LÊ NGỌC HẢI</td>
+    <td class="title">TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">A11</td>
+    <td class="qr"><img src="qr/0006_TRUNG_TUONG_LE_NGOC_HAI.png" alt="QR 0006"></td>
+    <td class="link"><a href="guests/0006_TRUNG_TUONG_LE_NGOC_HAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0007</td>
+    <td class="name">ĐẠI TÁ LƯƠNG ĐÌNH CHUNG</td>
+    <td class="title">CHÍNH UỶ QUÂN KHU</td>
+    <td class="seat">A13</td>
+    <td class="qr"><img src="qr/0007_AI_TA_LUONG_INH_CHUNG.png" alt="QR 0007"></td>
+    <td class="link"><a href="guests/0007_AI_TA_LUONG_INH_CHUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0008</td>
+    <td class="name">THIẾU TƯỚNG HỨA VĂN TƯỞNG</td>
+    <td class="title">PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">A15</td>
+    <td class="qr"><img src="qr/0008_THIEU_TUONG_HUA_VAN_TUONG.png" alt="QR 0008"></td>
+    <td class="link"><a href="guests/0008_THIEU_TUONG_HUA_VAN_TUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0009</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO THÀNH ỦY ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">A17</td>
+    <td class="qr"><img src="qr/0009_AI_BIEU_LANH_AO_THANH_UY_A_NANG.png" alt="QR 0009"></td>
+    <td class="link"><a href="guests/0009_AI_BIEU_LANH_AO_THANH_UY_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0010</td>
+    <td class="name">ĐỒNG CHÍ THÁI ĐẠI NGỌC</td>
+    <td class="title">ỦY VIÊN BCHTW ĐẢNG, BÍ THƯ TỈNH ỦY GIA LAI</td>
+    <td class="seat">A19</td>
+    <td class="qr"><img src="qr/0010_ONG_CHI_THAI_AI_NGOC.png" alt="QR 0010"></td>
+    <td class="link"><a href="guests/0010_ONG_CHI_THAI_AI_NGOC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0011</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO TỈNH ỦY ĐĂK LĂK</td>
+    <td class="title"></td>
+    <td class="seat">A21</td>
+    <td class="qr"><img src="qr/0011_AI_BIEU_LANH_AO_TINH_UY_AK_LAK.png" alt="QR 0011"></td>
+    <td class="link"><a href="guests/0011_AI_BIEU_LANH_AO_TINH_UY_AK_LAK.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0012</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO TỈNH ỦY KHÁNH HÒA</td>
+    <td class="title"></td>
+    <td class="seat">A23</td>
+    <td class="qr"><img src="qr/0012_AI_BIEU_LANH_AO_TINH_UY_KHANH_HOA.png" alt="QR 0012"></td>
+    <td class="link"><a href="guests/0012_AI_BIEU_LANH_AO_TINH_UY_KHANH_HOA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0013</td>
+    <td class="name">ĐỒNG CHÍ LƯƠNG CƯỜNG</td>
+    <td class="title">CHỦ TỊCH NƯỚC CHXHCN VIỆT NAM</td>
+    <td class="seat">A2</td>
+    <td class="qr"><img src="qr/0013_ONG_CHI_LUONG_CUONG.png" alt="QR 0013"></td>
+    <td class="link"><a href="guests/0013_ONG_CHI_LUONG_CUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0014</td>
+    <td class="name">ĐỒNG CHÍ NGUYỄN HOÀ BÌNH</td>
+    <td class="title">PHÓ THỦ TƯỚNG THƯỜNG TRỰC CHÍNH PHỦ</td>
+    <td class="seat">A4</td>
+    <td class="qr"><img src="qr/0014_ONG_CHI_NGUYEN_HOA_BINH.png" alt="QR 0014"></td>
+    <td class="link"><a href="guests/0014_ONG_CHI_NGUYEN_HOA_BINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0015</td>
+    <td class="name">THƯỢNG TƯỚNG TRẦN QUANG PHƯƠNG</td>
+    <td class="title">PHÓ CHỦ TỊCH QUỐC HỘI, NGUYÊN CHÍNH UỶ QUÂN KHU</td>
+    <td class="seat">A6</td>
+    <td class="qr"><img src="qr/0015_THUONG_TUONG_TRAN_QUANG_PHUONG.png" alt="QR 0015"></td>
+    <td class="link"><a href="guests/0015_THUONG_TUONG_TRAN_QUANG_PHUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0016</td>
+    <td class="name">THƯỢNG TƯỚNG HUỲNH NGỌC SƠN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ TỊCH QUỐC HỘI, NGUYÊN TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">A8</td>
+    <td class="qr"><img src="qr/0016_THUONG_TUONG_HUYNH_NGOC_SON.png" alt="QR 0016"></td>
+    <td class="link"><a href="guests/0016_THUONG_TUONG_HUYNH_NGOC_SON.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0017</td>
+    <td class="name">ĐẠI BIỂU MẸ VIỆT NAM ANH HÙNG</td>
+    <td class="title">TRÊN ĐỊA BÀN QUÂN KHU</td>
+    <td class="seat">A10</td>
+    <td class="qr"><img src="qr/0017_AI_BIEU_ME_VIET_NAM_ANH_HUNG.png" alt="QR 0017"></td>
+    <td class="link"><a href="guests/0017_AI_BIEU_ME_VIET_NAM_ANH_HUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0018</td>
+    <td class="name">ĐẠI BIỂU ANH HÙNG LỰC LƯỢNG VŨ TRANG NHÂN DÂN</td>
+    <td class="title">TRÊN ĐỊA BÀN QUÂN KHU</td>
+    <td class="seat">A12</td>
+    <td class="qr"><img src="qr/0018_AI_BIEU_ANH_HUNG_LUC_LUONG_VU_TRANG_NHAN_DAN.png" alt="QR 0018"></td>
+    <td class="link"><a href="guests/0018_AI_BIEU_ANH_HUNG_LUC_LUONG_VU_TRANG_NHAN_DAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0019</td>
+    <td class="name">THƯỢNG TƯỚNG NGUYỄN VĂN ĐƯỢC</td>
+    <td class="title">NGUYÊN THỨ TRƯỞNG BQP, NGUYÊN TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">A14</td>
+    <td class="qr"><img src="qr/0019_THUONG_TUONG_NGUYEN_VAN_UOC.png" alt="QR 0019"></td>
+    <td class="link"><a href="guests/0019_THUONG_TUONG_NGUYEN_VAN_UOC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0020</td>
+    <td class="name">THƯỢNG TƯỚNG LÊ CHIÊM</td>
+    <td class="title">NGUYÊN THỨ TRƯỞNG BQP, NGUYÊN TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">A16</td>
+    <td class="qr"><img src="qr/0020_THUONG_TUONG_LE_CHIEM.png" alt="QR 0020"></td>
+    <td class="link"><a href="guests/0020_THUONG_TUONG_LE_CHIEM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0021</td>
+    <td class="name">ĐẠI BIỂU TỔNG LÃNH SỰ QUÁN LIÊN BANG NGA</td>
+    <td class="title"></td>
+    <td class="seat">A18</td>
+    <td class="qr"><img src="qr/0021_AI_BIEU_TONG_LANH_SU_QUAN_LIEN_BANG_NGA.png" alt="QR 0021"></td>
+    <td class="link"><a href="guests/0021_AI_BIEU_TONG_LANH_SU_QUAN_LIEN_BANG_NGA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0022</td>
+    <td class="name">ĐẠI BIỂU TỔNG LÃNH SỰ QUÁN TRUNG QUỐC</td>
+    <td class="title"></td>
+    <td class="seat">A20</td>
+    <td class="qr"><img src="qr/0022_AI_BIEU_TONG_LANH_SU_QUAN_TRUNG_QUOC.png" alt="QR 0022"></td>
+    <td class="link"><a href="guests/0022_AI_BIEU_TONG_LANH_SU_QUAN_TRUNG_QUOC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0023</td>
+    <td class="name">ĐẠI BIỂU TỔNG LÃNH SỰ QUÁN NHẬT</td>
+    <td class="title"></td>
+    <td class="seat">A22</td>
+    <td class="qr"><img src="qr/0023_AI_BIEU_TONG_LANH_SU_QUAN_NHAT.png" alt="QR 0023"></td>
+    <td class="link"><a href="guests/0023_AI_BIEU_TONG_LANH_SU_QUAN_NHAT.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0024</td>
+    <td class="name">ĐẠI BIỂU TỔNG LÃNH SỰ QUÁN LÀO</td>
+    <td class="title"></td>
+    <td class="seat">A24</td>
+    <td class="qr"><img src="qr/0024_AI_BIEU_TONG_LANH_SU_QUAN_LAO.png" alt="QR 0024"></td>
+    <td class="link"><a href="guests/0024_AI_BIEU_TONG_LANH_SU_QUAN_LAO.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0025</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG BQP</td>
+    <td class="title"></td>
+    <td class="seat">B1</td>
+    <td class="qr"><img src="qr/0025_THU_KY_THU_TRUONG_BQP.png" alt="QR 0025"></td>
+    <td class="link"><a href="guests/0025_THU_KY_THU_TRUONG_BQP.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0026</td>
+    <td class="name">ĐẠI BIỂU THỦ TRƯỞNG TỔNG CỤC II</td>
+    <td class="title"></td>
+    <td class="seat">B3</td>
+    <td class="qr"><img src="qr/0026_AI_BIEU_THU_TRUONG_TONG_CUC_II.png" alt="QR 0026"></td>
+    <td class="link"><a href="guests/0026_AI_BIEU_THU_TRUONG_TONG_CUC_II.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0027</td>
+    <td class="name">ĐẠI BIỂU THỦ TRƯỞNG TỔNG CỤC CNQP</td>
+    <td class="title"></td>
+    <td class="seat">B5</td>
+    <td class="qr"><img src="qr/0027_AI_BIEU_THU_TRUONG_TONG_CUC_CNQP.png" alt="QR 0027"></td>
+    <td class="link"><a href="guests/0027_AI_BIEU_THU_TRUONG_TONG_CUC_CNQP.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0028</td>
+    <td class="name">ĐẠI BIỂU THỦ TRƯỞNG TỔNG CỤC HC-KT</td>
+    <td class="title"></td>
+    <td class="seat">B7</td>
+    <td class="qr"><img src="qr/0028_AI_BIEU_THU_TRUONG_TONG_CUC_HC-KT.png" alt="QR 0028"></td>
+    <td class="link"><a href="guests/0028_AI_BIEU_THU_TRUONG_TONG_CUC_HC-KT.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0029</td>
+    <td class="name">TRUNG TƯỚNG NGUYỄN LONG CÁNG</td>
+    <td class="title">NGUYÊN TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">B9</td>
+    <td class="qr"><img src="qr/0029_TRUNG_TUONG_NGUYEN_LONG_CANG.png" alt="QR 0029"></td>
+    <td class="link"><a href="guests/0029_TRUNG_TUONG_NGUYEN_LONG_CANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0030</td>
+    <td class="name">TRUNG TƯỚNG NGUYỄN THÀNH ĐỨC</td>
+    <td class="title">NGUYÊN CHÍNH ỦY QUÂN KHU</td>
+    <td class="seat">B11</td>
+    <td class="qr"><img src="qr/0030_TRUNG_TUONG_NGUYEN_THANH_UC.png" alt="QR 0030"></td>
+    <td class="link"><a href="guests/0030_TRUNG_TUONG_NGUYEN_THANH_UC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0031</td>
+    <td class="name">ĐẠI TÁ PHAN ĐẠI NGHĨA</td>
+    <td class="title">PHÓ TƯ LỆNH KIÊM TMT</td>
+    <td class="seat">B13</td>
+    <td class="qr"><img src="qr/0031_AI_TA_PHAN_AI_NGHIA.png" alt="QR 0031"></td>
+    <td class="link"><a href="guests/0031_AI_TA_PHAN_AI_NGHIA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0032</td>
+    <td class="name">THIẾU TƯỚNG TRẦN THANH HẢI</td>
+    <td class="title">PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">B15</td>
+    <td class="qr"><img src="qr/0032_THIEU_TUONG_TRAN_THANH_HAI.png" alt="QR 0032"></td>
+    <td class="link"><a href="guests/0032_THIEU_TUONG_TRAN_THANH_HAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0033</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO THÀNH ỦY HUẾ</td>
+    <td class="title"></td>
+    <td class="seat">B17</td>
+    <td class="qr"><img src="qr/0033_AI_BIEU_LANH_AO_THANH_UY_HUE.png" alt="QR 0033"></td>
+    <td class="link"><a href="guests/0033_AI_BIEU_LANH_AO_THANH_UY_HUE.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0034</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO TỈNH ỦY LÂM ĐỒNG</td>
+    <td class="title"></td>
+    <td class="seat">B19</td>
+    <td class="qr"><img src="qr/0034_AI_BIEU_LANH_AO_TINH_UY_LAM_ONG.png" alt="QR 0034"></td>
+    <td class="link"><a href="guests/0034_AI_BIEU_LANH_AO_TINH_UY_LAM_ONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0035</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO TỈNH ỦY QUẢNG TRỊ</td>
+    <td class="title"></td>
+    <td class="seat">B21</td>
+    <td class="qr"><img src="qr/0035_AI_BIEU_LANH_AO_TINH_UY_QUANG_TRI.png" alt="QR 0035"></td>
+    <td class="link"><a href="guests/0035_AI_BIEU_LANH_AO_TINH_UY_QUANG_TRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0036</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO TỈNH ỦY QUẢNG NGÃI</td>
+    <td class="title"></td>
+    <td class="seat">B23</td>
+    <td class="qr"><img src="qr/0036_AI_BIEU_LANH_AO_TINH_UY_QUANG_NGAI.png" alt="QR 0036"></td>
+    <td class="link"><a href="guests/0036_AI_BIEU_LANH_AO_TINH_UY_QUANG_NGAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0037</td>
+    <td class="name">THƯ KÝ CHỦ TỊCH NƯỚC</td>
+    <td class="title"></td>
+    <td class="seat">B2</td>
+    <td class="qr"><img src="qr/0037_THU_KY_CHU_TICH_NUOC.png" alt="QR 0037"></td>
+    <td class="link"><a href="guests/0037_THU_KY_CHU_TICH_NUOC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0038</td>
+    <td class="name">ĐẠI BIỂU VĂN PHÒNG QUÂN ỦY TRUNG ƯƠNG BQP</td>
+    <td class="title"></td>
+    <td class="seat">B4</td>
+    <td class="qr"><img src="qr/0038_AI_BIEU_VAN_PHONG_QUAN_UY_TRUNG_UONG_BQP.png" alt="QR 0038"></td>
+    <td class="link"><a href="guests/0038_AI_BIEU_VAN_PHONG_QUAN_UY_TRUNG_UONG_BQP.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0039</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN KIỂM TRA QUÂN ỦY TRUNG ƯƠNG</td>
+    <td class="title"></td>
+    <td class="seat">B6</td>
+    <td class="qr"><img src="qr/0039_AI_BIEU_UY_BAN_KIEM_TRA_QUAN_UY_TRUNG_UONG.png" alt="QR 0039"></td>
+    <td class="link"><a href="guests/0039_AI_BIEU_UY_BAN_KIEM_TRA_QUAN_UY_TRUNG_UONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0040</td>
+    <td class="name">ĐẠI BIỂU TRUNG ƯƠNG HỘI CCB VIỆT NAM</td>
+    <td class="title"></td>
+    <td class="seat">B8</td>
+    <td class="qr"><img src="qr/0040_AI_BIEU_TRUNG_UONG_HOI_CCB_VIET_NAM.png" alt="QR 0040"></td>
+    <td class="link"><a href="guests/0040_AI_BIEU_TRUNG_UONG_HOI_CCB_VIET_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0041</td>
+    <td class="name">BÀ TIẾP</td>
+    <td class="title">PHU NHÂN TRUNG TƯỚNG ĐÀO DUY MINH</td>
+    <td class="seat">B12</td>
+    <td class="qr"><img src="qr/0041_BA_TIEP.png" alt="QR 0041"></td>
+    <td class="link"><a href="guests/0041_BA_TIEP.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0042</td>
+    <td class="name">TRUNG TƯỚNG NGUYỄN TRUNG THU</td>
+    <td class="title">NGUYÊN PHÓ TTMT QĐNDVN, NGUYÊN TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">B14</td>
+    <td class="qr"><img src="qr/0042_TRUNG_TUONG_NGUYEN_TRUNG_THU.png" alt="QR 0042"></td>
+    <td class="link"><a href="guests/0042_TRUNG_TUONG_NGUYEN_TRUNG_THU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0043</td>
+    <td class="name">THƯỢNG TƯỚNG VÕ TIẾN TRUNG</td>
+    <td class="title">NGUYÊN GIÁM ĐỐC HVQP, NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">B16</td>
+    <td class="qr"><img src="qr/0043_THUONG_TUONG_VO_TIEN_TRUNG.png" alt="QR 0043"></td>
+    <td class="link"><a href="guests/0043_THUONG_TUONG_VO_TIEN_TRUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0044</td>
+    <td class="name">ĐẠI BIỂU QUÂN KHU 1</td>
+    <td class="title">QUÂN ĐỘI HOÀNG GIA CAMPUCHIA</td>
+    <td class="seat">B18</td>
+    <td class="qr"><img src="qr/0044_AI_BIEU_QUAN_KHU_1.png" alt="QR 0044"></td>
+    <td class="link"><a href="guests/0044_AI_BIEU_QUAN_KHU_1.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0045</td>
+    <td class="name">ĐẠI BIỂU QUÂN KHU 4</td>
+    <td class="title">QUÂN ĐỘI HOÀNG GIA CAMPUCHIA</td>
+    <td class="seat">B20</td>
+    <td class="qr"><img src="qr/0045_AI_BIEU_QUAN_KHU_4.png" alt="QR 0045"></td>
+    <td class="link"><a href="guests/0045_AI_BIEU_QUAN_KHU_4.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0046</td>
+    <td class="name">ĐẠI BIỂU BỘ CHQS TỈNH SA LA VAN</td>
+    <td class="title">QUÂN ĐỘI NHÂN DÂN LÀO</td>
+    <td class="seat">B22</td>
+    <td class="qr"><img src="qr/0046_AI_BIEU_BO_CHQS_TINH_SA_LA_VAN.png" alt="QR 0046"></td>
+    <td class="link"><a href="guests/0046_AI_BIEU_BO_CHQS_TINH_SA_LA_VAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0047</td>
+    <td class="name">ĐẠI BIỂU SƯ ĐOÀN 5</td>
+    <td class="title">QUÂN ĐỘI NHÂN DÂN LÀO</td>
+    <td class="seat">B24</td>
+    <td class="qr"><img src="qr/0047_AI_BIEU_SU_OAN_5.png" alt="QR 0047"></td>
+    <td class="link"><a href="guests/0047_AI_BIEU_SU_OAN_5.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0048</td>
+    <td class="name">TRUNG TƯỚNG LÊ VĂN HOÀNG</td>
+    <td class="title">NGUYÊN CHÍNH ỦY TCHC, NGUYÊN PHÓ CHÍNH ỦY QUÂN KHU</td>
+    <td class="seat">C1</td>
+    <td class="qr"><img src="qr/0048_TRUNG_TUONG_LE_VAN_HOANG.png" alt="QR 0048"></td>
+    <td class="link"><a href="guests/0048_TRUNG_TUONG_LE_VAN_HOANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0049</td>
+    <td class="name">TRUNG TƯỚNG LÊ ANH THƠ</td>
+    <td class="title">NGUYÊN CHÍNH ỦY HVLQ, NGUYÊN PHÓ CHÍNH ỦY QUÂN KHU</td>
+    <td class="seat">C3</td>
+    <td class="qr"><img src="qr/0049_TRUNG_TUONG_LE_ANH_THO.png" alt="QR 0049"></td>
+    <td class="link"><a href="guests/0049_TRUNG_TUONG_LE_ANH_THO.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0050</td>
+    <td class="name">TRUNG TƯỚNG NGÔ QUÝ ĐỨC</td>
+    <td class="title">NGUYÊN CT CỤC CH-CN, NGUYÊN PHÓ TƯ LỆNH KIÊM TMT QUÂN KHU</td>
+    <td class="seat">C5</td>
+    <td class="qr"><img src="qr/0050_TRUNG_TUONG_NGO_QUY_UC.png" alt="QR 0050"></td>
+    <td class="link"><a href="guests/0050_TRUNG_TUONG_NGO_QUY_UC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0051</td>
+    <td class="name">THIẾU TƯỚNG TRẦN CÔNG THỨC</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">C7</td>
+    <td class="qr"><img src="qr/0051_THIEU_TUONG_TRAN_CONG_THUC.png" alt="QR 0051"></td>
+    <td class="link"><a href="guests/0051_THIEU_TUONG_TRAN_CONG_THUC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0052</td>
+    <td class="name">TRUNG TƯỚNG NGUYỄN VĂN TUYÊN</td>
+    <td class="title">NGUYÊN PHÓ GIÁM ĐỐC HVQP, NGUYÊN PHÓ TƯ LỆNH-TMT QUÂN KHU</td>
+    <td class="seat">C9</td>
+    <td class="qr"><img src="qr/0052_TRUNG_TUONG_NGUYEN_VAN_TUYEN.png" alt="QR 0052"></td>
+    <td class="link"><a href="guests/0052_TRUNG_TUONG_NGUYEN_VAN_TUYEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0053</td>
+    <td class="name">TRUNG TƯỚNG TRỊNH ĐÌNH THẠCH</td>
+    <td class="title">NGUYÊN CHÍNH ỦY QUÂN KHU</td>
+    <td class="seat">C11</td>
+    <td class="qr"><img src="qr/0053_TRUNG_TUONG_TRINH_INH_THACH.png" alt="QR 0053"></td>
+    <td class="link"><a href="guests/0053_TRUNG_TUONG_TRINH_INH_THACH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0054</td>
+    <td class="name">ĐẠI TÁ TRẦN MINH TRỌNG</td>
+    <td class="title">PHÓ CHÍNH ỦY QUÂN KHU</td>
+    <td class="seat">C13</td>
+    <td class="qr"><img src="qr/0054_AI_TA_TRAN_MINH_TRONG.png" alt="QR 0054"></td>
+    <td class="link"><a href="guests/0054_AI_TA_TRAN_MINH_TRONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0055</td>
+    <td class="name">THIẾU TƯỚNG NGUYỄN QUỐC HƯƠNG</td>
+    <td class="title">PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">C15</td>
+    <td class="qr"><img src="qr/0055_THIEU_TUONG_NGUYEN_QUOC_HUONG.png" alt="QR 0055"></td>
+    <td class="link"><a href="guests/0055_THIEU_TUONG_NGUYEN_QUOC_HUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0056</td>
+    <td class="name">THIẾU TƯỚNG CAO PHI HÙNG</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">C17</td>
+    <td class="qr"><img src="qr/0056_THIEU_TUONG_CAO_PHI_HUNG.png" alt="QR 0056"></td>
+    <td class="link"><a href="guests/0056_THIEU_TUONG_CAO_PHI_HUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0057</td>
+    <td class="name">THIẾU TƯỚNG TRẦN NGỌC YẾN</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">C19</td>
+    <td class="qr"><img src="qr/0057_THIEU_TUONG_TRAN_NGOC_YEN.png" alt="QR 0057"></td>
+    <td class="link"><a href="guests/0057_THIEU_TUONG_TRAN_NGOC_YEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0058</td>
+    <td class="name">THIẾU TƯỚNG NGUYỄN TRỌNG HUY</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">C21</td>
+    <td class="qr"><img src="qr/0058_THIEU_TUONG_NGUYEN_TRONG_HUY.png" alt="QR 0058"></td>
+    <td class="link"><a href="guests/0058_THIEU_TUONG_NGUYEN_TRONG_HUY.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0059</td>
+    <td class="name">THIẾU TƯỚNG ĐOÀN KIỂU</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">C23</td>
+    <td class="qr"><img src="qr/0059_THIEU_TUONG_OAN_KIEU.png" alt="QR 0059"></td>
+    <td class="link"><a href="guests/0059_THIEU_TUONG_OAN_KIEU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0060</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH QUÂN KHU THỦ ĐÔ</td>
+    <td class="title"></td>
+    <td class="seat">C12</td>
+    <td class="qr"><img src="qr/0060_AI_BIEU_BO_TU_LENH_QUAN_KHU_THU_O.png" alt="QR 0060"></td>
+    <td class="link"><a href="guests/0060_AI_BIEU_BO_TU_LENH_QUAN_KHU_THU_O.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0061</td>
+    <td class="name">ĐẠI BIỂU ANH HÙNG LỰC LƯỢNG VŨ TRANG NHÂN DÂN</td>
+    <td class="title">TRÊN ĐỊA BÀN QUÂN KHU</td>
+    <td class="seat">C14</td>
+    <td class="qr"><img src="qr/0061_AI_BIEU_ANH_HUNG_LUC_LUONG_VU_TRANG_NHAN_DAN.png" alt="QR 0061"></td>
+    <td class="link"><a href="guests/0061_AI_BIEU_ANH_HUNG_LUC_LUONG_VU_TRANG_NHAN_DAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0062</td>
+    <td class="name">TRUNG TƯỚNG TRẦN PHƯỚC TỚI</td>
+    <td class="title">NGUYÊN PHÓ VT VIỆN KSND TỐI CAO, NGUYÊN VT VKS QSQK</td>
+    <td class="seat">C16</td>
+    <td class="qr"><img src="qr/0062_TRUNG_TUONG_TRAN_PHUOC_TOI.png" alt="QR 0062"></td>
+    <td class="link"><a href="guests/0062_TRUNG_TUONG_TRAN_PHUOC_TOI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0063</td>
+    <td class="name">ĐẠI BIỂU TIỂU KHU QUÂN SỰ RATTANAKIRI</td>
+    <td class="title">QUÂN ĐỘI HOÀNG GIA CAMPUCHIA</td>
+    <td class="seat">C18</td>
+    <td class="qr"><img src="qr/0063_AI_BIEU_TIEU_KHU_QUAN_SU_RATTANAKIRI.png" alt="QR 0063"></td>
+    <td class="link"><a href="guests/0063_AI_BIEU_TIEU_KHU_QUAN_SU_RATTANAKIRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0064</td>
+    <td class="name">ĐẠI BIỂU TIỂU KHU QUÂN SỰ MULĐÔKIRI</td>
+    <td class="title">QUÂN ĐỘI HOÀNG GIA CAMPUCHIA</td>
+    <td class="seat">C20</td>
+    <td class="qr"><img src="qr/0064_AI_BIEU_TIEU_KHU_QUAN_SU_MULOKIRI.png" alt="QR 0064"></td>
+    <td class="link"><a href="guests/0064_AI_BIEU_TIEU_KHU_QUAN_SU_MULOKIRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0065</td>
+    <td class="name">ĐẠI BIỂU BỘ CHQS TỈNH AT TA PƯ</td>
+    <td class="title">QUÂN ĐỘI NHÂN DÂN LÀO</td>
+    <td class="seat">C22</td>
+    <td class="qr"><img src="qr/0065_AI_BIEU_BO_CHQS_TINH_AT_TA_PU.png" alt="QR 0065"></td>
+    <td class="link"><a href="guests/0065_AI_BIEU_BO_CHQS_TINH_AT_TA_PU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0066</td>
+    <td class="name">ĐẠI BIỂU BỘ CHQS TỈNH SÊ KÔNG</td>
+    <td class="title">QUÂN ĐỘI NHÂN DÂN LÀO</td>
+    <td class="seat">C24</td>
+    <td class="qr"><img src="qr/0066_AI_BIEU_BO_CHQS_TINH_SE_KONG.png" alt="QR 0066"></td>
+    <td class="link"><a href="guests/0066_AI_BIEU_BO_CHQS_TINH_SE_KONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0067</td>
+    <td class="name">THIẾU TƯỚNG RƠ Ô CHEO</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">D1</td>
+    <td class="qr"><img src="qr/0067_THIEU_TUONG_RO_O_CHEO.png" alt="QR 0067"></td>
+    <td class="link"><a href="guests/0067_THIEU_TUONG_RO_O_CHEO.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0068</td>
+    <td class="name">THIẾU TƯỚNG NGUYỄN QUY NHƠN</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">D3</td>
+    <td class="qr"><img src="qr/0068_THIEU_TUONG_NGUYEN_QUY_NHON.png" alt="QR 0068"></td>
+    <td class="link"><a href="guests/0068_THIEU_TUONG_NGUYEN_QUY_NHON.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0069</td>
+    <td class="name">THIẾU TƯỚNG ĐINH DƯƠNG</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">D5</td>
+    <td class="qr"><img src="qr/0069_THIEU_TUONG_INH_DUONG.png" alt="QR 0069"></td>
+    <td class="link"><a href="guests/0069_THIEU_TUONG_INH_DUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0070</td>
+    <td class="name">TRUNG TƯỚNG TIÊU VĂN MẪN</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH VỀ CHÍNH TRỊ</td>
+    <td class="seat">D7</td>
+    <td class="qr"><img src="qr/0070_TRUNG_TUONG_TIEU_VAN_MAN.png" alt="QR 0070"></td>
+    <td class="link"><a href="guests/0070_TRUNG_TUONG_TIEU_VAN_MAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0071</td>
+    <td class="name">TRUNG TƯỚNG NGUYỄN THÀNH ÚT</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH VỀ CHÍNH TRỊ</td>
+    <td class="seat">D9</td>
+    <td class="qr"><img src="qr/0071_TRUNG_TUONG_NGUYEN_THANH_UT.png" alt="QR 0071"></td>
+    <td class="link"><a href="guests/0071_TRUNG_TUONG_NGUYEN_THANH_UT.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0072</td>
+    <td class="name">THIẾU TƯỚNG NGUYỄN ĐÌNH TIẾN</td>
+    <td class="title">NGUYÊN PHÓ TƯ LỆNH QUÂN KHU</td>
+    <td class="seat">D11</td>
+    <td class="qr"><img src="qr/0072_THIEU_TUONG_NGUYEN_INH_TIEN.png" alt="QR 0072"></td>
+    <td class="link"><a href="guests/0072_THIEU_TUONG_NGUYEN_INH_TIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0073</td>
+    <td class="name">TRUNG TƯỚNG TẠ NHÂN</td>
+    <td class="title">NGUYÊN PHÓ CN UBKT QUTW, NGUYÊN CNCT QUÂN KHU</td>
+    <td class="seat">D13</td>
+    <td class="qr"><img src="qr/0073_TRUNG_TUONG_TA_NHAN.png" alt="QR 0073"></td>
+    <td class="link"><a href="guests/0073_TRUNG_TUONG_TA_NHAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0074</td>
+    <td class="name">TRUNG TƯỚNG LÊ NGỌC NAM</td>
+    <td class="title">NGUYÊN PHÓ CN UBKT QUTW, NGUYÊN CNCT QUÂN KHU</td>
+    <td class="seat">D15</td>
+    <td class="qr"><img src="qr/0074_TRUNG_TUONG_LE_NGOC_NAM.png" alt="QR 0074"></td>
+    <td class="link"><a href="guests/0074_TRUNG_TUONG_LE_NGOC_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0075</td>
+    <td class="name">THIẾU TƯỚNG VÕ DUY CHÍN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">D17</td>
+    <td class="qr"><img src="qr/0075_THIEU_TUONG_VO_DUY_CHIN.png" alt="QR 0075"></td>
+    <td class="link"><a href="guests/0075_THIEU_TUONG_VO_DUY_CHIN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0076</td>
+    <td class="name">THIẾU TƯỚNG NGUYỄN ĐỨC LIÊN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">D19</td>
+    <td class="qr"><img src="qr/0076_THIEU_TUONG_NGUYEN_UC_LIEN.png" alt="QR 0076"></td>
+    <td class="link"><a href="guests/0076_THIEU_TUONG_NGUYEN_UC_LIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0077</td>
+    <td class="name">THIẾU TƯỚNG TỐNG PHÚ</td>
+    <td class="title">PHÓ GIÁM ĐỐC HVLQ, NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">D21</td>
+    <td class="qr"><img src="qr/0077_THIEU_TUONG_TONG_PHU.png" alt="QR 0077"></td>
+    <td class="link"><a href="guests/0077_THIEU_TUONG_TONG_PHU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0078</td>
+    <td class="name">TRUNG TƯỚNG NGUYỄN NGỌC CẢ</td>
+    <td class="title">NGUYÊN HIỆU TRƯỞNG TRƯỜNG SỸ QUAN LỤC QUÂN 2</td>
+    <td class="seat">D23</td>
+    <td class="qr"><img src="qr/0078_TRUNG_TUONG_NGUYEN_NGOC_CA.png" alt="QR 0078"></td>
+    <td class="link"><a href="guests/0078_TRUNG_TUONG_NGUYEN_NGOC_CA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0079</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH QUÂN KHU 1</td>
+    <td class="title"></td>
+    <td class="seat">D2</td>
+    <td class="qr"><img src="qr/0079_AI_BIEU_BO_TU_LENH_QUAN_KHU_1.png" alt="QR 0079"></td>
+    <td class="link"><a href="guests/0079_AI_BIEU_BO_TU_LENH_QUAN_KHU_1.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0080</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH QUÂN KHU 2</td>
+    <td class="title"></td>
+    <td class="seat">D4</td>
+    <td class="qr"><img src="qr/0080_AI_BIEU_BO_TU_LENH_QUAN_KHU_2.png" alt="QR 0080"></td>
+    <td class="link"><a href="guests/0080_AI_BIEU_BO_TU_LENH_QUAN_KHU_2.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0081</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH QUÂN KHU 3</td>
+    <td class="title"></td>
+    <td class="seat">D6</td>
+    <td class="qr"><img src="qr/0081_AI_BIEU_BO_TU_LENH_QUAN_KHU_3.png" alt="QR 0081"></td>
+    <td class="link"><a href="guests/0081_AI_BIEU_BO_TU_LENH_QUAN_KHU_3.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0082</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH QUÂN KHU 4</td>
+    <td class="title"></td>
+    <td class="seat">D8</td>
+    <td class="qr"><img src="qr/0082_AI_BIEU_BO_TU_LENH_QUAN_KHU_4.png" alt="QR 0082"></td>
+    <td class="link"><a href="guests/0082_AI_BIEU_BO_TU_LENH_QUAN_KHU_4.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0083</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH QUÂN KHU 7</td>
+    <td class="title"></td>
+    <td class="seat">D10</td>
+    <td class="qr"><img src="qr/0083_AI_BIEU_BO_TU_LENH_QUAN_KHU_7.png" alt="QR 0083"></td>
+    <td class="link"><a href="guests/0083_AI_BIEU_BO_TU_LENH_QUAN_KHU_7.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0084</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH QUÂN KHU 9</td>
+    <td class="title"></td>
+    <td class="seat">D12</td>
+    <td class="qr"><img src="qr/0084_AI_BIEU_BO_TU_LENH_QUAN_KHU_9.png" alt="QR 0084"></td>
+    <td class="link"><a href="guests/0084_AI_BIEU_BO_TU_LENH_QUAN_KHU_9.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0085</td>
+    <td class="name">ĐẠI BIỂU QUÂN ĐOÀN 12</td>
+    <td class="title"></td>
+    <td class="seat">D14</td>
+    <td class="qr"><img src="qr/0085_AI_BIEU_QUAN_OAN_12.png" alt="QR 0085"></td>
+    <td class="link"><a href="guests/0085_AI_BIEU_QUAN_OAN_12.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0086</td>
+    <td class="name">ĐẠI BIỂU QUÂN ĐOÀN 34</td>
+    <td class="title"></td>
+    <td class="seat">D16</td>
+    <td class="qr"><img src="qr/0086_AI_BIEU_QUAN_OAN_34.png" alt="QR 0086"></td>
+    <td class="link"><a href="guests/0086_AI_BIEU_QUAN_OAN_34.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0087</td>
+    <td class="name">ĐẠI BIỂU TIỂU KHU QUÂN SỰ STUNG TRENG</td>
+    <td class="title">QUÂN ĐỘI HOÀNG GIA CAMPUCHIA</td>
+    <td class="seat">D18</td>
+    <td class="qr"><img src="qr/0087_AI_BIEU_TIEU_KHU_QUAN_SU_STUNG_TRENG.png" alt="QR 0087"></td>
+    <td class="link"><a href="guests/0087_AI_BIEU_TIEU_KHU_QUAN_SU_STUNG_TRENG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0088</td>
+    <td class="name">ĐẠI BIỂU LỮ ĐOÀN CƠ ĐỘNG 128</td>
+    <td class="title">QUÂN ĐỘI HOÀNG GIA CAMPUCHIA</td>
+    <td class="seat">D20</td>
+    <td class="qr"><img src="qr/0088_AI_BIEU_LU_OAN_CO_ONG_128.png" alt="QR 0088"></td>
+    <td class="link"><a href="guests/0088_AI_BIEU_LU_OAN_CO_ONG_128.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0089</td>
+    <td class="name">ĐẠI BIỂU BỘ CHQS TỈNH CHĂM PA SĂK</td>
+    <td class="title">QUÂN ĐỘI NHÂN DÂN LÀO</td>
+    <td class="seat">D22</td>
+    <td class="qr"><img src="qr/0089_AI_BIEU_BO_CHQS_TINH_CHAM_PA_SAK.png" alt="QR 0089"></td>
+    <td class="link"><a href="guests/0089_AI_BIEU_BO_CHQS_TINH_CHAM_PA_SAK.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0090</td>
+    <td class="name">ĐẠI BIỂU TRƯỜNG HSQ SỐ 2 VIÊNG SAY</td>
+    <td class="title">QUÂN ĐỘI NHÂN DÂN LÀO</td>
+    <td class="seat">D24</td>
+    <td class="qr"><img src="qr/0090_AI_BIEU_TRUONG_HSQ_SO_2_VIENG_SAY.png" alt="QR 0090"></td>
+    <td class="link"><a href="guests/0090_AI_BIEU_TRUONG_HSQ_SO_2_VIENG_SAY.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0091</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN NHÂN DÂN TỈNH QUẢNG TRỊ</td>
+    <td class="title"></td>
+    <td class="seat">E1</td>
+    <td class="qr"><img src="qr/0091_AI_BIEU_UY_BAN_NHAN_DAN_TINH_QUANG_TRI.png" alt="QR 0091"></td>
+    <td class="link"><a href="guests/0091_AI_BIEU_UY_BAN_NHAN_DAN_TINH_QUANG_TRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0092</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN NHÂN DÂN THÀNH PHỐ HUẾ</td>
+    <td class="title"></td>
+    <td class="seat">E3</td>
+    <td class="qr"><img src="qr/0092_AI_BIEU_UY_BAN_NHAN_DAN_THANH_PHO_HUE.png" alt="QR 0092"></td>
+    <td class="link"><a href="guests/0092_AI_BIEU_UY_BAN_NHAN_DAN_THANH_PHO_HUE.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0093</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN NHÂN DÂN TỈNH LÂM ĐỒNG</td>
+    <td class="title"></td>
+    <td class="seat">E5</td>
+    <td class="qr"><img src="qr/0093_AI_BIEU_UY_BAN_NHAN_DAN_TINH_LAM_ONG.png" alt="QR 0093"></td>
+    <td class="link"><a href="guests/0093_AI_BIEU_UY_BAN_NHAN_DAN_TINH_LAM_ONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0094</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN NHÂN DÂN TỈNH KHÁNH HÒA</td>
+    <td class="title"></td>
+    <td class="seat">E7</td>
+    <td class="qr"><img src="qr/0094_AI_BIEU_UY_BAN_NHAN_DAN_TINH_KHANH_HOA.png" alt="QR 0094"></td>
+    <td class="link"><a href="guests/0094_AI_BIEU_UY_BAN_NHAN_DAN_TINH_KHANH_HOA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0095</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN NHÂN DÂN TỈNH ĐĂK LĂK</td>
+    <td class="title"></td>
+    <td class="seat">E9</td>
+    <td class="qr"><img src="qr/0095_AI_BIEU_UY_BAN_NHAN_DAN_TINH_AK_LAK.png" alt="QR 0095"></td>
+    <td class="link"><a href="guests/0095_AI_BIEU_UY_BAN_NHAN_DAN_TINH_AK_LAK.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0096</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN NHÂN DÂN TỈNH GIA LAI</td>
+    <td class="title"></td>
+    <td class="seat">E11</td>
+    <td class="qr"><img src="qr/0096_AI_BIEU_UY_BAN_NHAN_DAN_TINH_GIA_LAI.png" alt="QR 0096"></td>
+    <td class="link"><a href="guests/0096_AI_BIEU_UY_BAN_NHAN_DAN_TINH_GIA_LAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0097</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN NHÂN DÂN TỈNH QUẢNG NGÃI</td>
+    <td class="title"></td>
+    <td class="seat">E13</td>
+    <td class="qr"><img src="qr/0097_AI_BIEU_UY_BAN_NHAN_DAN_TINH_QUANG_NGAI.png" alt="QR 0097"></td>
+    <td class="link"><a href="guests/0097_AI_BIEU_UY_BAN_NHAN_DAN_TINH_QUANG_NGAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0098</td>
+    <td class="name">ĐẠI BIỂU ỦY BAN NHÂN DÂN THÀNH PHỐ ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">E15</td>
+    <td class="qr"><img src="qr/0098_AI_BIEU_UY_BAN_NHAN_DAN_THANH_PHO_A_NANG.png" alt="QR 0098"></td>
+    <td class="link"><a href="guests/0098_AI_BIEU_UY_BAN_NHAN_DAN_THANH_PHO_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0099</td>
+    <td class="name">TRUNG TƯỚNG NGUYỄN THANH TUẤN</td>
+    <td class="title">NGUYÊN CỤC TRƯỞNG CỤC TH, NGUYÊN CNCT QUÂN KHU</td>
+    <td class="seat">E17</td>
+    <td class="qr"><img src="qr/0099_TRUNG_TUONG_NGUYEN_THANH_TUAN.png" alt="QR 0099"></td>
+    <td class="link"><a href="guests/0099_TRUNG_TUONG_NGUYEN_THANH_TUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0100</td>
+    <td class="name">THIẾU TƯỚNG VÕ VĂN HƯNG</td>
+    <td class="title">CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">E19</td>
+    <td class="qr"><img src="qr/0100_THIEU_TUONG_VO_VAN_HUNG.png" alt="QR 0100"></td>
+    <td class="link"><a href="guests/0100_THIEU_TUONG_VO_VAN_HUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0101</td>
+    <td class="name">THIẾU TƯỚNG HÀ HUY LONG</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">E21</td>
+    <td class="qr"><img src="qr/0101_THIEU_TUONG_HA_HUY_LONG.png" alt="QR 0101"></td>
+    <td class="link"><a href="guests/0101_THIEU_TUONG_HA_HUY_LONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0102</td>
+    <td class="name">THIẾU TƯỚNG ĐỖ QUANG DỰ</td>
+    <td class="title">NGUYÊN CỤC TRƯỞNG CỤC HẬU CẦN QUÂN KHU</td>
+    <td class="seat">E23</td>
+    <td class="qr"><img src="qr/0102_THIEU_TUONG_O_QUANG_DU.png" alt="QR 0102"></td>
+    <td class="link"><a href="guests/0102_THIEU_TUONG_O_QUANG_DU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0103</td>
+    <td class="name">ĐẠI TÁ LÊ KIM GIÀU</td>
+    <td class="title">PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E25</td>
+    <td class="qr"><img src="qr/0103_AI_TA_LE_KIM_GIAU.png" alt="QR 0103"></td>
+    <td class="link"><a href="guests/0103_AI_TA_LE_KIM_GIAU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0104</td>
+    <td class="name">ĐẠI TÁ NGUYỄN VĂN HÒA</td>
+    <td class="title">PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E27</td>
+    <td class="qr"><img src="qr/0104_AI_TA_NGUYEN_VAN_HOA.png" alt="QR 0104"></td>
+    <td class="link"><a href="guests/0104_AI_TA_NGUYEN_VAN_HOA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0105</td>
+    <td class="name">ĐẠI TÁ VÕ VĂN BÁ</td>
+    <td class="title">PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E29</td>
+    <td class="qr"><img src="qr/0105_AI_TA_VO_VAN_BA.png" alt="QR 0105"></td>
+    <td class="link"><a href="guests/0105_AI_TA_VO_VAN_BA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0106</td>
+    <td class="name">THIẾU TƯỚNG LƯU XUÂN PHƯƠNG</td>
+    <td class="title">PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E31</td>
+    <td class="qr"><img src="qr/0106_THIEU_TUONG_LUU_XUAN_PHUONG.png" alt="QR 0106"></td>
+    <td class="link"><a href="guests/0106_THIEU_TUONG_LUU_XUAN_PHUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0107</td>
+    <td class="name">ĐẠI BIỂU BTL BẢO VỆ LĂNG CHỦ TỊCH HỒ CHÍ MINH</td>
+    <td class="title"></td>
+    <td class="seat">E2</td>
+    <td class="qr"><img src="qr/0107_AI_BIEU_BTL_BAO_VE_LANG_CHU_TICH_HO_CHI_MINH.png" alt="QR 0107"></td>
+    <td class="link"><a href="guests/0107_AI_BIEU_BTL_BAO_VE_LANG_CHU_TICH_HO_CHI_MINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0108</td>
+    <td class="name">ĐẠI BIỂU CỤC TÁC CHIẾN</td>
+    <td class="title"></td>
+    <td class="seat">E4</td>
+    <td class="qr"><img src="qr/0108_AI_BIEU_CUC_TAC_CHIEN.png" alt="QR 0108"></td>
+    <td class="link"><a href="guests/0108_AI_BIEU_CUC_TAC_CHIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0109</td>
+    <td class="name">ĐẠI BIỂU CỤC QUÂN HUẤN NHÀ TRƯỜNG</td>
+    <td class="title"></td>
+    <td class="seat">E6</td>
+    <td class="qr"><img src="qr/0109_AI_BIEU_CUC_QUAN_HUAN_NHA_TRUONG.png" alt="QR 0109"></td>
+    <td class="link"><a href="guests/0109_AI_BIEU_CUC_QUAN_HUAN_NHA_TRUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0110</td>
+    <td class="name">ĐẠI BIỂU CỤC QUÂN LỰC</td>
+    <td class="title"></td>
+    <td class="seat">E8</td>
+    <td class="qr"><img src="qr/0110_AI_BIEU_CUC_QUAN_LUC.png" alt="QR 0110"></td>
+    <td class="link"><a href="guests/0110_AI_BIEU_CUC_QUAN_LUC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0111</td>
+    <td class="name">ĐẠI BIỂU CỤC ĐỐI NGOẠI</td>
+    <td class="title"></td>
+    <td class="seat">E10</td>
+    <td class="qr"><img src="qr/0111_AI_BIEU_CUC_OI_NGOAI.png" alt="QR 0111"></td>
+    <td class="link"><a href="guests/0111_AI_BIEU_CUC_OI_NGOAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0112</td>
+    <td class="name">ĐẠI BIỂU CỤC TÀI CHÍNH BỘ QUỐC PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">E12</td>
+    <td class="qr"><img src="qr/0112_AI_BIEU_CUC_TAI_CHINH_BO_QUOC_PHONG.png" alt="QR 0112"></td>
+    <td class="link"><a href="guests/0112_AI_BIEU_CUC_TAI_CHINH_BO_QUOC_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0113</td>
+    <td class="name">ĐẠI BIỂU CỤC PHÁP CHẾ</td>
+    <td class="title"></td>
+    <td class="seat">E14</td>
+    <td class="qr"><img src="qr/0113_AI_BIEU_CUC_PHAP_CHE.png" alt="QR 0113"></td>
+    <td class="link"><a href="guests/0113_AI_BIEU_CUC_PHAP_CHE.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0114</td>
+    <td class="name">ĐẠI BIỂU CỤC GÌN GIỮ HÒA BÌNH VIỆT NAM</td>
+    <td class="title"></td>
+    <td class="seat">E16</td>
+    <td class="qr"><img src="qr/0114_AI_BIEU_CUC_GIN_GIU_HOA_BINH_VIET_NAM.png" alt="QR 0114"></td>
+    <td class="link"><a href="guests/0114_AI_BIEU_CUC_GIN_GIU_HOA_BINH_VIET_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0115</td>
+    <td class="name">ĐẠI TÁ PHẠM ĐỚI</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E18</td>
+    <td class="qr"><img src="qr/0115_AI_TA_PHAM_OI.png" alt="QR 0115"></td>
+    <td class="link"><a href="guests/0115_AI_TA_PHAM_OI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0116</td>
+    <td class="name">TRUNG TƯỚNG TRƯƠNG ĐỨC NGHĨA</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E20</td>
+    <td class="qr"><img src="qr/0116_TRUNG_TUONG_TRUONG_UC_NGHIA.png" alt="QR 0116"></td>
+    <td class="link"><a href="guests/0116_TRUNG_TUONG_TRUONG_UC_NGHIA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0117</td>
+    <td class="name">THIẾU TƯỚNG ĐẶNG LÊ NHỊ</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E22</td>
+    <td class="qr"><img src="qr/0117_THIEU_TUONG_ANG_LE_NHI.png" alt="QR 0117"></td>
+    <td class="link"><a href="guests/0117_THIEU_TUONG_ANG_LE_NHI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0118</td>
+    <td class="name">THIẾU TƯỚNG NGUYỄN NGỌC ÂN</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E24</td>
+    <td class="qr"><img src="qr/0118_THIEU_TUONG_NGUYEN_NGOC_AN.png" alt="QR 0118"></td>
+    <td class="link"><a href="guests/0118_THIEU_TUONG_NGUYEN_NGOC_AN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0119</td>
+    <td class="name">THIẾU TƯỚNG NGUYỄN NGỌC MINH</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E26</td>
+    <td class="qr"><img src="qr/0119_THIEU_TUONG_NGUYEN_NGOC_MINH.png" alt="QR 0119"></td>
+    <td class="link"><a href="guests/0119_THIEU_TUONG_NGUYEN_NGOC_MINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0120</td>
+    <td class="name">ĐẠI TÁ ĐỖ TRỌNG BÌNH</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E28</td>
+    <td class="qr"><img src="qr/0120_AI_TA_O_TRONG_BINH.png" alt="QR 0120"></td>
+    <td class="link"><a href="guests/0120_AI_TA_O_TRONG_BINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0121</td>
+    <td class="name">ĐẠI TÁ TRẦN VĂN HẠNH</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E30</td>
+    <td class="qr"><img src="qr/0121_AI_TA_TRAN_VAN_HANH.png" alt="QR 0121"></td>
+    <td class="link"><a href="guests/0121_AI_TA_TRAN_VAN_HANH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0122</td>
+    <td class="name">ĐẠI TÁ KHÚC NGỌC PHƯƠNG</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">E32</td>
+    <td class="qr"><img src="qr/0122_AI_TA_KHUC_NGOC_PHUONG.png" alt="QR 0122"></td>
+    <td class="link"><a href="guests/0122_AI_TA_KHUC_NGOC_PHUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0123</td>
+    <td class="name">ĐẠI BIỂU HỌC VIỆN CHÍNH TRỊ KHU VỰC 3</td>
+    <td class="title"></td>
+    <td class="seat">F1</td>
+    <td class="qr"><img src="qr/0123_AI_BIEU_HOC_VIEN_CHINH_TRI_KHU_VUC_3.png" alt="QR 0123"></td>
+    <td class="link"><a href="guests/0123_AI_BIEU_HOC_VIEN_CHINH_TRI_KHU_VUC_3.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0124</td>
+    <td class="name">ĐẠI BIỂU VỤ ĐỊA PHƯƠNG II BAN TỔ CHỨC TW</td>
+    <td class="title"></td>
+    <td class="seat">F3</td>
+    <td class="qr"><img src="qr/0124_AI_BIEU_VU_IA_PHUONG_II_BAN_TO_CHUC_TW.png" alt="QR 0124"></td>
+    <td class="link"><a href="guests/0124_AI_BIEU_VU_IA_PHUONG_II_BAN_TO_CHUC_TW.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0125</td>
+    <td class="name">ĐẠI BIỂU VỤ ĐỊA PHƯƠNG II BAN NỘI CHÍNH TW</td>
+    <td class="title"></td>
+    <td class="seat">F5</td>
+    <td class="qr"><img src="qr/0125_AI_BIEU_VU_IA_PHUONG_II_BAN_NOI_CHINH_TW.png" alt="QR 0125"></td>
+    <td class="link"><a href="guests/0125_AI_BIEU_VU_IA_PHUONG_II_BAN_NOI_CHINH_TW.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0126</td>
+    <td class="name">ĐẠI BIỂU VỤ ĐỊA PHƯƠNG II BAN TUYÊN GIÁO & DÂN VÂN TW</td>
+    <td class="title"></td>
+    <td class="seat">F7</td>
+    <td class="qr"><img src="qr/0126_AI_BIEU_VU_IA_PHUONG_II_BAN_TUYEN_GIAO_&_DAN_VAN_TW.png" alt="QR 0126"></td>
+    <td class="link"><a href="guests/0126_AI_BIEU_VU_IA_PHUONG_II_BAN_TUYEN_GIAO_&_DAN_VAN_TW.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0127</td>
+    <td class="name">ĐẠI BIỂU VỤ ĐỊA BÀN V UBKT TRUNG ƯƠNG</td>
+    <td class="title"></td>
+    <td class="seat">F9</td>
+    <td class="qr"><img src="qr/0127_AI_BIEU_VU_IA_BAN_V_UBKT_TRUNG_UONG.png" alt="QR 0127"></td>
+    <td class="link"><a href="guests/0127_AI_BIEU_VU_IA_BAN_V_UBKT_TRUNG_UONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0128</td>
+    <td class="name">ĐẠI BIỂU VỤ ĐỊA PHƯƠNG II VĂN PHÒNG TW ĐẢNG</td>
+    <td class="title"></td>
+    <td class="seat">F11</td>
+    <td class="qr"><img src="qr/0128_AI_BIEU_VU_IA_PHUONG_II_VAN_PHONG_TW_ANG.png" alt="QR 0128"></td>
+    <td class="link"><a href="guests/0128_AI_BIEU_VU_IA_PHUONG_II_VAN_PHONG_TW_ANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0129</td>
+    <td class="name">ĐẠI BIỂU CỤC BẢO VỆ AN NINH QUÂN ĐỘI</td>
+    <td class="title"></td>
+    <td class="seat">F13</td>
+    <td class="qr"><img src="qr/0129_AI_BIEU_CUC_BAO_VE_AN_NINH_QUAN_OI.png" alt="QR 0129"></td>
+    <td class="link"><a href="guests/0129_AI_BIEU_CUC_BAO_VE_AN_NINH_QUAN_OI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0130</td>
+    <td class="name">ĐẠI BIỂU VĂN PHÒNG TỔNG CỤC CHÍNH TRỊ</td>
+    <td class="title"></td>
+    <td class="seat">F15</td>
+    <td class="qr"><img src="qr/0130_AI_BIEU_VAN_PHONG_TONG_CUC_CHINH_TRI.png" alt="QR 0130"></td>
+    <td class="link"><a href="guests/0130_AI_BIEU_VAN_PHONG_TONG_CUC_CHINH_TRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0131</td>
+    <td class="name">THIẾU TƯỚNG ĐOÀN VĂN NHẤT</td>
+    <td class="title">PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">F17</td>
+    <td class="qr"><img src="qr/0131_THIEU_TUONG_OAN_VAN_NHAT.png" alt="QR 0131"></td>
+    <td class="link"><a href="guests/0131_THIEU_TUONG_OAN_VAN_NHAT.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0132</td>
+    <td class="name">ĐẠI TÁ NGUYỄN THANH NAM</td>
+    <td class="title">PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">F19</td>
+    <td class="qr"><img src="qr/0132_AI_TA_NGUYEN_THANH_NAM.png" alt="QR 0132"></td>
+    <td class="link"><a href="guests/0132_AI_TA_NGUYEN_THANH_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0133</td>
+    <td class="name">ĐẠI TÁ ĐỖ THANH XUÂN</td>
+    <td class="title">PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">F21</td>
+    <td class="qr"><img src="qr/0133_AI_TA_O_THANH_XUAN.png" alt="QR 0133"></td>
+    <td class="link"><a href="guests/0133_AI_TA_O_THANH_XUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0134</td>
+    <td class="name">ĐẠI TÁ NGUYỄN THANH XUÂN</td>
+    <td class="title">PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">F23</td>
+    <td class="qr"><img src="qr/0134_AI_TA_NGUYEN_THANH_XUAN.png" alt="QR 0134"></td>
+    <td class="link"><a href="guests/0134_AI_TA_NGUYEN_THANH_XUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0135</td>
+    <td class="name">ĐẠI TÁ TRƯƠNG QUANG SINH</td>
+    <td class="title">PHÓ CHỦ NHIỆM UBKT ĐẢNG ỦY QUÂN KHU</td>
+    <td class="seat">F25</td>
+    <td class="qr"><img src="qr/0135_AI_TA_TRUONG_QUANG_SINH.png" alt="QR 0135"></td>
+    <td class="link"><a href="guests/0135_AI_TA_TRUONG_QUANG_SINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0136</td>
+    <td class="name">ĐẠI TÁ HỒ ANH TUẤN</td>
+    <td class="title">PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">F27</td>
+    <td class="qr"><img src="qr/0136_AI_TA_HO_ANH_TUAN.png" alt="QR 0136"></td>
+    <td class="link"><a href="guests/0136_AI_TA_HO_ANH_TUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0137</td>
+    <td class="name">ĐẠI TÁ NGUYỄN TẤN Ý</td>
+    <td class="title">PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F29</td>
+    <td class="qr"><img src="qr/0137_AI_TA_NGUYEN_TAN_Y.png" alt="QR 0137"></td>
+    <td class="link"><a href="guests/0137_AI_TA_NGUYEN_TAN_Y.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0138</td>
+    <td class="name">ĐẠI TÁ LÊ TRUNG THÀNH</td>
+    <td class="title">PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F31</td>
+    <td class="qr"><img src="qr/0138_AI_TA_LE_TRUNG_THANH.png" alt="QR 0138"></td>
+    <td class="link"><a href="guests/0138_AI_TA_LE_TRUNG_THANH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0139</td>
+    <td class="name">ĐẠI BIỂU VIỆN CHIẾN LƯỢC VÀ LỊCH SỬ QPVN</td>
+    <td class="title"></td>
+    <td class="seat">F2</td>
+    <td class="qr"><img src="qr/0139_AI_BIEU_VIEN_CHIEN_LUOC_VA_LICH_SU_QPVN.png" alt="QR 0139"></td>
+    <td class="link"><a href="guests/0139_AI_BIEU_VIEN_CHIEN_LUOC_VA_LICH_SU_QPVN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0140</td>
+    <td class="name">ĐẠI BIỂU QUÂN CHỦNG PHÒNG KHÔNG KHÔNG QUÂN</td>
+    <td class="title"></td>
+    <td class="seat">F4</td>
+    <td class="qr"><img src="qr/0140_AI_BIEU_QUAN_CHUNG_PHONG_KHONG_KHONG_QUAN.png" alt="QR 0140"></td>
+    <td class="link"><a href="guests/0140_AI_BIEU_QUAN_CHUNG_PHONG_KHONG_KHONG_QUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0141</td>
+    <td class="name">ĐẠI BIỂU QUÂN CHỦNG HẢI QUÂN</td>
+    <td class="title"></td>
+    <td class="seat">F6</td>
+    <td class="qr"><img src="qr/0141_AI_BIEU_QUAN_CHUNG_HAI_QUAN.png" alt="QR 0141"></td>
+    <td class="link"><a href="guests/0141_AI_BIEU_QUAN_CHUNG_HAI_QUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0142</td>
+    <td class="name">ĐẠI BIỂU CỤC KHQS BỘ QUỐC PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">F8</td>
+    <td class="qr"><img src="qr/0142_AI_BIEU_CUC_KHQS_BO_QUOC_PHONG.png" alt="QR 0142"></td>
+    <td class="link"><a href="guests/0142_AI_BIEU_CUC_KHQS_BO_QUOC_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0143</td>
+    <td class="name">ĐẠI BIỂU CỤC CƠ YẾU</td>
+    <td class="title"></td>
+    <td class="seat">F10</td>
+    <td class="qr"><img src="qr/0143_AI_BIEU_CUC_CO_YEU.png" alt="QR 0143"></td>
+    <td class="link"><a href="guests/0143_AI_BIEU_CUC_CO_YEU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0144</td>
+    <td class="name">ĐẠI BIỂU CỤC DÂN QUÂN TỰ VỆ</td>
+    <td class="title"></td>
+    <td class="seat">F12</td>
+    <td class="qr"><img src="qr/0144_AI_BIEU_CUC_DAN_QUAN_TU_VE.png" alt="QR 0144"></td>
+    <td class="link"><a href="guests/0144_AI_BIEU_CUC_DAN_QUAN_TU_VE.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0145</td>
+    <td class="name">ĐẠI BIỂU CỤC CỨU HỘ CỨU NẠN</td>
+    <td class="title"></td>
+    <td class="seat">F14</td>
+    <td class="qr"><img src="qr/0145_AI_BIEU_CUC_CUU_HO_CUU_NAN.png" alt="QR 0145"></td>
+    <td class="link"><a href="guests/0145_AI_BIEU_CUC_CUU_HO_CUU_NAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0146</td>
+    <td class="name">ĐẠI BIỂU TÒA ÁN QUÂN SỰ TRUNG ƯƠNG</td>
+    <td class="title"></td>
+    <td class="seat">F16</td>
+    <td class="qr"><img src="qr/0146_AI_BIEU_TOA_AN_QUAN_SU_TRUNG_UONG.png" alt="QR 0146"></td>
+    <td class="link"><a href="guests/0146_AI_BIEU_TOA_AN_QUAN_SU_TRUNG_UONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0147</td>
+    <td class="name">THIẾU TƯỚNG NGUYỄN VIẾT HOÀNG</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F18</td>
+    <td class="qr"><img src="qr/0147_THIEU_TUONG_NGUYEN_VIET_HOANG.png" alt="QR 0147"></td>
+    <td class="link"><a href="guests/0147_THIEU_TUONG_NGUYEN_VIET_HOANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0148</td>
+    <td class="name">THIẾU TƯỚNG PHẠM NGỌC TÍNH</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F20</td>
+    <td class="qr"><img src="qr/0148_THIEU_TUONG_PHAM_NGOC_TINH.png" alt="QR 0148"></td>
+    <td class="link"><a href="guests/0148_THIEU_TUONG_PHAM_NGOC_TINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0149</td>
+    <td class="name">THIẾU TƯỚNG TRƯƠNG HỒNG QUANG</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F22</td>
+    <td class="qr"><img src="qr/0149_THIEU_TUONG_TRUONG_HONG_QUANG.png" alt="QR 0149"></td>
+    <td class="link"><a href="guests/0149_THIEU_TUONG_TRUONG_HONG_QUANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0150</td>
+    <td class="name">ĐẠI TÁ TRƯƠNG QUANG NHẠN</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F24</td>
+    <td class="qr"><img src="qr/0150_AI_TA_TRUONG_QUANG_NHAN.png" alt="QR 0150"></td>
+    <td class="link"><a href="guests/0150_AI_TA_TRUONG_QUANG_NHAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0151</td>
+    <td class="name">ĐẠI TÁ LÊ XUÂN THỊNH</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F26</td>
+    <td class="qr"><img src="qr/0151_AI_TA_LE_XUAN_THINH.png" alt="QR 0151"></td>
+    <td class="link"><a href="guests/0151_AI_TA_LE_XUAN_THINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0152</td>
+    <td class="name">ĐẠI TÁ ĐOÀN VĂN TÂM</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F28</td>
+    <td class="qr"><img src="qr/0152_AI_TA_OAN_VAN_TAM.png" alt="QR 0152"></td>
+    <td class="link"><a href="guests/0152_AI_TA_OAN_VAN_TAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0153</td>
+    <td class="name">ĐẠI TÁ TRẦN VĂN LÝ</td>
+    <td class="title">NGUYÊN PHÓ TMT QUÂN KHU</td>
+    <td class="seat">F30</td>
+    <td class="qr"><img src="qr/0153_AI_TA_TRAN_VAN_LY.png" alt="QR 0153"></td>
+    <td class="link"><a href="guests/0153_AI_TA_TRAN_VAN_LY.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0154</td>
+    <td class="name">ĐẠI TÁ NGUYỄN VĂN CHƯỚC</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">F32</td>
+    <td class="qr"><img src="qr/0154_AI_TA_NGUYEN_VAN_CHUOC.png" alt="QR 0154"></td>
+    <td class="link"><a href="guests/0154_AI_TA_NGUYEN_VAN_CHUOC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0155</td>
+    <td class="name">ĐẠI BIỂU CỤC QUÂN NHU</td>
+    <td class="title"></td>
+    <td class="seat">G1</td>
+    <td class="qr"><img src="qr/0155_AI_BIEU_CUC_QUAN_NHU.png" alt="QR 0155"></td>
+    <td class="link"><a href="guests/0155_AI_BIEU_CUC_QUAN_NHU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0156</td>
+    <td class="name">ĐẠI BIỂU CỤC DOANH TRẠI</td>
+    <td class="title"></td>
+    <td class="seat">G3</td>
+    <td class="qr"><img src="qr/0156_AI_BIEU_CUC_DOANH_TRAI.png" alt="QR 0156"></td>
+    <td class="link"><a href="guests/0156_AI_BIEU_CUC_DOANH_TRAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0157</td>
+    <td class="name">ĐẠI BIỂU CỤC QUÂN Y</td>
+    <td class="title"></td>
+    <td class="seat">G5</td>
+    <td class="qr"><img src="qr/0157_AI_BIEU_CUC_QUAN_Y.png" alt="QR 0157"></td>
+    <td class="link"><a href="guests/0157_AI_BIEU_CUC_QUAN_Y.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0158</td>
+    <td class="name">ĐẠI BIỂU CỤC CHÍNH SÁCH XÃ HỘI</td>
+    <td class="title"></td>
+    <td class="seat">G7</td>
+    <td class="qr"><img src="qr/0158_AI_BIEU_CUC_CHINH_SACH_XA_HOI.png" alt="QR 0158"></td>
+    <td class="link"><a href="guests/0158_AI_BIEU_CUC_CHINH_SACH_XA_HOI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0159</td>
+    <td class="name">ĐẠI BIỂU CỤC DÂN VẬN</td>
+    <td class="title"></td>
+    <td class="seat">G9</td>
+    <td class="qr"><img src="qr/0159_AI_BIEU_CUC_DAN_VAN.png" alt="QR 0159"></td>
+    <td class="link"><a href="guests/0159_AI_BIEU_CUC_DAN_VAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0160</td>
+    <td class="name">ĐẠI BIỂU CỤC TỔ CHỨC</td>
+    <td class="title"></td>
+    <td class="seat">G11</td>
+    <td class="qr"><img src="qr/0160_AI_BIEU_CUC_TO_CHUC.png" alt="QR 0160"></td>
+    <td class="link"><a href="guests/0160_AI_BIEU_CUC_TO_CHUC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0161</td>
+    <td class="name">ĐẠI BIỂU CỤC CÁN BỘ</td>
+    <td class="title"></td>
+    <td class="seat">G13</td>
+    <td class="qr"><img src="qr/0161_AI_BIEU_CUC_CAN_BO.png" alt="QR 0161"></td>
+    <td class="link"><a href="guests/0161_AI_BIEU_CUC_CAN_BO.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0162</td>
+    <td class="name">ĐẠI BIỂU CỤC TUYÊN HUẤN</td>
+    <td class="title"></td>
+    <td class="seat">G15</td>
+    <td class="qr"><img src="qr/0162_AI_BIEU_CUC_TUYEN_HUAN.png" alt="QR 0162"></td>
+    <td class="link"><a href="guests/0162_AI_BIEU_CUC_TUYEN_HUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0163</td>
+    <td class="name">ĐẠI TÁ LƯƠNG KẾ ĐIỀM</td>
+    <td class="title">CHỦ NHIỆM HC-KT QUÂN KHU</td>
+    <td class="seat">G17</td>
+    <td class="qr"><img src="qr/0163_AI_TA_LUONG_KE_IEM.png" alt="QR 0163"></td>
+    <td class="link"><a href="guests/0163_AI_TA_LUONG_KE_IEM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0164</td>
+    <td class="name">ĐẠI TÁ DƯƠNG HOÀNG TOÁN</td>
+    <td class="title">PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">G19</td>
+    <td class="qr"><img src="qr/0164_AI_TA_DUONG_HOANG_TOAN.png" alt="QR 0164"></td>
+    <td class="link"><a href="guests/0164_AI_TA_DUONG_HOANG_TOAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0165</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH CẢNH SÁT BIỂN VÙNG 2</td>
+    <td class="title">CẢNH SÁT BIỂN VIỆT NAM</td>
+    <td class="seat">G21</td>
+    <td class="qr"><img src="qr/0165_AI_BIEU_BO_TU_LENH_CANH_SAT_BIEN_VUNG_2.png" alt="QR 0165"></td>
+    <td class="link"><a href="guests/0165_AI_BIEU_BO_TU_LENH_CANH_SAT_BIEN_VUNG_2.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0166</td>
+    <td class="name">ĐẠI BIỂU SƯ ĐOÀN KQ372</td>
+    <td class="title">QUÂN CHỦNG PK-KQ</td>
+    <td class="seat">G23</td>
+    <td class="qr"><img src="qr/0166_AI_BIEU_SU_OAN_KQ372.png" alt="QR 0166"></td>
+    <td class="link"><a href="guests/0166_AI_BIEU_SU_OAN_KQ372.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0167</td>
+    <td class="name">ĐẠI TÁ TRẦN ANH TUẤN</td>
+    <td class="title">PHÓ CHỦ NHIỆM HC-KT QUÂN KHU</td>
+    <td class="seat">G25</td>
+    <td class="qr"><img src="qr/0167_AI_TA_TRAN_ANH_TUAN.png" alt="QR 0167"></td>
+    <td class="link"><a href="guests/0167_AI_TA_TRAN_ANH_TUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0168</td>
+    <td class="name">ĐẠI TÁ VÕ TẤN KHANH</td>
+    <td class="title">PHÓ CHỦ NHIỆM HC-KT QUÂN KHU</td>
+    <td class="seat">G27</td>
+    <td class="qr"><img src="qr/0168_AI_TA_VO_TAN_KHANH.png" alt="QR 0168"></td>
+    <td class="link"><a href="guests/0168_AI_TA_VO_TAN_KHANH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0169</td>
+    <td class="name">ĐẠI TÁ TRẦN VĂN THIÊN</td>
+    <td class="title">PHÓ CHỦ NHIỆM HC-KT QUÂN KHU</td>
+    <td class="seat">G29</td>
+    <td class="qr"><img src="qr/0169_AI_TA_TRAN_VAN_THIEN.png" alt="QR 0169"></td>
+    <td class="link"><a href="guests/0169_AI_TA_TRAN_VAN_THIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0170</td>
+    <td class="name">ĐẠI TÁ CAO VĂN MƯỜI</td>
+    <td class="title">PHÓ TMT QUÂN KHU</td>
+    <td class="seat">G31</td>
+    <td class="qr"><img src="qr/0170_AI_TA_CAO_VAN_MUOI.png" alt="QR 0170"></td>
+    <td class="link"><a href="guests/0170_AI_TA_CAO_VAN_MUOI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0171</td>
+    <td class="name">ĐẠI BIỂU BINH CHỦNG PHÁO BINH - TÊN LỬA</td>
+    <td class="title"></td>
+    <td class="seat">G2</td>
+    <td class="qr"><img src="qr/0171_AI_BIEU_BINH_CHUNG_PHAO_BINH_-_TEN_LUA.png" alt="QR 0171"></td>
+    <td class="link"><a href="guests/0171_AI_BIEU_BINH_CHUNG_PHAO_BINH_-_TEN_LUA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0172</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH BỘ ĐỘI BIÊN PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">G4</td>
+    <td class="qr"><img src="qr/0172_AI_BIEU_BO_TU_LENH_BO_OI_BIEN_PHONG.png" alt="QR 0172"></td>
+    <td class="link"><a href="guests/0172_AI_BIEU_BO_TU_LENH_BO_OI_BIEN_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0173</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH CẢNH SÁT BIỂN</td>
+    <td class="title"></td>
+    <td class="seat">G6</td>
+    <td class="qr"><img src="qr/0173_AI_BIEU_BO_TU_LENH_CANH_SAT_BIEN.png" alt="QR 0173"></td>
+    <td class="link"><a href="guests/0173_AI_BIEU_BO_TU_LENH_CANH_SAT_BIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0174</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH TÁC CHIẾN KHÔNG GIAN MẠNG</td>
+    <td class="title"></td>
+    <td class="seat">G8</td>
+    <td class="qr"><img src="qr/0174_AI_BIEU_BO_TU_LENH_TAC_CHIEN_KHONG_GIAN_MANG.png" alt="QR 0174"></td>
+    <td class="link"><a href="guests/0174_AI_BIEU_BO_TU_LENH_TAC_CHIEN_KHONG_GIAN_MANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0175</td>
+    <td class="name">ĐẠI BIỂU THANH TRA BỘ QUỐC PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">G10</td>
+    <td class="qr"><img src="qr/0175_AI_BIEU_THANH_TRA_BO_QUOC_PHONG.png" alt="QR 0175"></td>
+    <td class="link"><a href="guests/0175_AI_BIEU_THANH_TRA_BO_QUOC_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0176</td>
+    <td class="name">ĐẠI BIỂU CỤC ĐT - HS BỘ QUỐC PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">G12</td>
+    <td class="qr"><img src="qr/0176_AI_BIEU_CUC_T_-_HS_BO_QUOC_PHONG.png" alt="QR 0176"></td>
+    <td class="link"><a href="guests/0176_AI_BIEU_CUC_T_-_HS_BO_QUOC_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0177</td>
+    <td class="name">ĐẠI BIỂU CỤC THI HÀNH ÁN BỘ QUỐC PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">G14</td>
+    <td class="qr"><img src="qr/0177_AI_BIEU_CUC_THI_HANH_AN_BO_QUOC_PHONG.png" alt="QR 0177"></td>
+    <td class="link"><a href="guests/0177_AI_BIEU_CUC_THI_HANH_AN_BO_QUOC_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0178</td>
+    <td class="name">ĐẠI BIỂU VIỆN KIỂM SÁT QUÂN SỰ TRUNG ƯƠNG</td>
+    <td class="title"></td>
+    <td class="seat">G16</td>
+    <td class="qr"><img src="qr/0178_AI_BIEU_VIEN_KIEM_SAT_QUAN_SU_TRUNG_UONG.png" alt="QR 0178"></td>
+    <td class="link"><a href="guests/0178_AI_BIEU_VIEN_KIEM_SAT_QUAN_SU_TRUNG_UONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0179</td>
+    <td class="name">ĐẠI TÁ PHAN VĂN HẠNG</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">G18</td>
+    <td class="qr"><img src="qr/0179_AI_TA_PHAN_VAN_HANG.png" alt="QR 0179"></td>
+    <td class="link"><a href="guests/0179_AI_TA_PHAN_VAN_HANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0180</td>
+    <td class="name">ĐẠI TÁ TRẦN MINH CHÍN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">G20</td>
+    <td class="qr"><img src="qr/0180_AI_TA_TRAN_MINH_CHIN.png" alt="QR 0180"></td>
+    <td class="link"><a href="guests/0180_AI_TA_TRAN_MINH_CHIN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0181</td>
+    <td class="name">ĐẠI TÁ TRỊNH VĂN TÂM</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">G22</td>
+    <td class="qr"><img src="qr/0181_AI_TA_TRINH_VAN_TAM.png" alt="QR 0181"></td>
+    <td class="link"><a href="guests/0181_AI_TA_TRINH_VAN_TAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0182</td>
+    <td class="name">ĐẠI TÁ TRẦN PHƯỚC NHA</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">G24</td>
+    <td class="qr"><img src="qr/0182_AI_TA_TRAN_PHUOC_NHA.png" alt="QR 0182"></td>
+    <td class="link"><a href="guests/0182_AI_TA_TRAN_PHUOC_NHA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0183</td>
+    <td class="name">ĐẠI TÁ ĐOÀN HỒNG CHƯƠNG</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">G26</td>
+    <td class="qr"><img src="qr/0183_AI_TA_OAN_HONG_CHUONG.png" alt="QR 0183"></td>
+    <td class="link"><a href="guests/0183_AI_TA_OAN_HONG_CHUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0184</td>
+    <td class="name">ĐẠI TÁ DƯƠNG HỮU QUYÊN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM UBKT ĐẢNG ỦY QUÂN KHU</td>
+    <td class="seat">G28</td>
+    <td class="qr"><img src="qr/0184_AI_TA_DUONG_HUU_QUYEN.png" alt="QR 0184"></td>
+    <td class="link"><a href="guests/0184_AI_TA_DUONG_HUU_QUYEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0185</td>
+    <td class="name">ĐẠI TÁ TRƯƠNG VĂN GÒN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM UBKT ĐẢNG ỦY QUÂN KHU</td>
+    <td class="seat">G30</td>
+    <td class="qr"><img src="qr/0185_AI_TA_TRUONG_VAN_GON.png" alt="QR 0185"></td>
+    <td class="link"><a href="guests/0185_AI_TA_TRUONG_VAN_GON.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0186</td>
+    <td class="name">ĐẠI TÁ DƯƠNG XUÂN DẦN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM UBKT ĐẢNG ỦY QUÂN KHU</td>
+    <td class="seat">G32</td>
+    <td class="qr"><img src="qr/0186_AI_TA_DUONG_XUAN_DAN.png" alt="QR 0186"></td>
+    <td class="link"><a href="guests/0186_AI_TA_DUONG_XUAN_DAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0187</td>
+    <td class="name">ĐẠI BIỂU CỤC KỸ THUẬT BINH CHỦNG</td>
+    <td class="title"></td>
+    <td class="seat">H1</td>
+    <td class="qr"><img src="qr/0187_AI_BIEU_CUC_KY_THUAT_BINH_CHUNG.png" alt="QR 0187"></td>
+    <td class="link"><a href="guests/0187_AI_BIEU_CUC_KY_THUAT_BINH_CHUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0188</td>
+    <td class="name">ĐẠI BIỂU CỤC XE MÁY VẬN TẢI</td>
+    <td class="title"></td>
+    <td class="seat">H3</td>
+    <td class="qr"><img src="qr/0188_AI_BIEU_CUC_XE_MAY_VAN_TAI.png" alt="QR 0188"></td>
+    <td class="link"><a href="guests/0188_AI_BIEU_CUC_XE_MAY_VAN_TAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0189</td>
+    <td class="name">ĐẠI BIỂU CỤC XĂNG DẦU</td>
+    <td class="title"></td>
+    <td class="seat">H5</td>
+    <td class="qr"><img src="qr/0189_AI_BIEU_CUC_XANG_DAU.png" alt="QR 0189"></td>
+    <td class="link"><a href="guests/0189_AI_BIEU_CUC_XANG_DAU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0190</td>
+    <td class="name">ĐẠI BIỂU CỤC QUÂN KHÍ</td>
+    <td class="title"></td>
+    <td class="seat">H7</td>
+    <td class="qr"><img src="qr/0190_AI_BIEU_CUC_QUAN_KHI.png" alt="QR 0190"></td>
+    <td class="link"><a href="guests/0190_AI_BIEU_CUC_QUAN_KHI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0191</td>
+    <td class="name">ĐẠI BIỂU BAN CƠ YẾU CHÍNH PHỦ</td>
+    <td class="title"></td>
+    <td class="seat">H9</td>
+    <td class="qr"><img src="qr/0191_AI_BIEU_BAN_CO_YEU_CHINH_PHU.png" alt="QR 0191"></td>
+    <td class="link"><a href="guests/0191_AI_BIEU_BAN_CO_YEU_CHINH_PHU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0192</td>
+    <td class="name">ĐẠI BIỂU TRUNG TÂM NHIỆT ĐỚI VIỆT NGA</td>
+    <td class="title"></td>
+    <td class="seat">H11</td>
+    <td class="qr"><img src="qr/0192_AI_BIEU_TRUNG_TAM_NHIET_OI_VIET_NGA.png" alt="QR 0192"></td>
+    <td class="link"><a href="guests/0192_AI_BIEU_TRUNG_TAM_NHIET_OI_VIET_NGA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0193</td>
+    <td class="name">ĐẠI BIỂU BỆNH VIỆN QUÂN Y 175</td>
+    <td class="title"></td>
+    <td class="seat">H13</td>
+    <td class="qr"><img src="qr/0193_AI_BIEU_BENH_VIEN_QUAN_Y_175.png" alt="QR 0193"></td>
+    <td class="link"><a href="guests/0193_AI_BIEU_BENH_VIEN_QUAN_Y_175.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0194</td>
+    <td class="name">ĐẠI BIỂU BỆNH VIỆN TRUNG ƯƠNG QUÂN ĐỘI 108</td>
+    <td class="title"></td>
+    <td class="seat">H15</td>
+    <td class="qr"><img src="qr/0194_AI_BIEU_BENH_VIEN_TRUNG_UONG_QUAN_OI_108.png" alt="QR 0194"></td>
+    <td class="link"><a href="guests/0194_AI_BIEU_BENH_VIEN_TRUNG_UONG_QUAN_OI_108.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0195</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH VÙNG 3 HẢI QUÂN</td>
+    <td class="title">QUÂN CHỦNG HẢI QUÂN</td>
+    <td class="seat">H17</td>
+    <td class="qr"><img src="qr/0195_AI_BIEU_BO_TU_LENH_VUNG_3_HAI_QUAN.png" alt="QR 0195"></td>
+    <td class="link"><a href="guests/0195_AI_BIEU_BO_TU_LENH_VUNG_3_HAI_QUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0196</td>
+    <td class="name">ĐẠI BIỂU BỘ TƯ LỆNH VÙNG 4 HẢI QUÂN</td>
+    <td class="title">QUÂN CHỦNG HẢI QUÂN</td>
+    <td class="seat">H19</td>
+    <td class="qr"><img src="qr/0196_AI_BIEU_BO_TU_LENH_VUNG_4_HAI_QUAN.png" alt="QR 0196"></td>
+    <td class="link"><a href="guests/0196_AI_BIEU_BO_TU_LENH_VUNG_4_HAI_QUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0197</td>
+    <td class="name">ĐẠI BIỂU SƯ ĐOÀN PK375</td>
+    <td class="title">QUÂN CHỦNG PK-KQ</td>
+    <td class="seat">H21</td>
+    <td class="qr"><img src="qr/0197_AI_BIEU_SU_OAN_PK375.png" alt="QR 0197"></td>
+    <td class="link"><a href="guests/0197_AI_BIEU_SU_OAN_PK375.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0198</td>
+    <td class="name">ĐẠI BIỂU CỤC 11</td>
+    <td class="title">TỔNG CỤC II</td>
+    <td class="seat">H23</td>
+    <td class="qr"><img src="qr/0198_AI_BIEU_CUC_11.png" alt="QR 0198"></td>
+    <td class="link"><a href="guests/0198_AI_BIEU_CUC_11.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0199</td>
+    <td class="name">ĐẠI BIỂU TRUNG TÂM 386</td>
+    <td class="title">BỘ TƯ LỆNH 86</td>
+    <td class="seat">H25</td>
+    <td class="qr"><img src="qr/0199_AI_BIEU_TRUNG_TAM_386.png" alt="QR 0199"></td>
+    <td class="link"><a href="guests/0199_AI_BIEU_TRUNG_TAM_386.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0200</td>
+    <td class="name">ĐẠI TÁ TRẦN KIM QUYỀN</td>
+    <td class="title">CHÍNH ỦY CỤC HC-KT</td>
+    <td class="seat">H27</td>
+    <td class="qr"><img src="qr/0200_AI_TA_TRAN_KIM_QUYEN.png" alt="QR 0200"></td>
+    <td class="link"><a href="guests/0200_AI_TA_TRAN_KIM_QUYEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0201</td>
+    <td class="name">ĐẠI TÁ LÊ THÀNH TÔN</td>
+    <td class="title">PHÓ CHỦ NHIỆM HC-KT QUÂN KHU</td>
+    <td class="seat">H29</td>
+    <td class="qr"><img src="qr/0201_AI_TA_LE_THANH_TON.png" alt="QR 0201"></td>
+    <td class="link"><a href="guests/0201_AI_TA_LE_THANH_TON.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0202</td>
+    <td class="name">ĐẠI TÁ ĐỖ XUÂN HÙNG</td>
+    <td class="title">PHÓ TMT QUÂN KHU</td>
+    <td class="seat">H31</td>
+    <td class="qr"><img src="qr/0202_AI_TA_O_XUAN_HUNG.png" alt="QR 0202"></td>
+    <td class="link"><a href="guests/0202_AI_TA_O_XUAN_HUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0203</td>
+    <td class="name">ĐẠI BIỂU BINH CHỦNG TĂNG THIẾT GIÁP</td>
+    <td class="title"></td>
+    <td class="seat">H2</td>
+    <td class="qr"><img src="qr/0203_AI_BIEU_BINH_CHUNG_TANG_THIET_GIAP.png" alt="QR 0203"></td>
+    <td class="link"><a href="guests/0203_AI_BIEU_BINH_CHUNG_TANG_THIET_GIAP.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0204</td>
+    <td class="name">ĐẠI BIỂU BÌNH CHỦNG ĐẶC CÔNG</td>
+    <td class="title"></td>
+    <td class="seat">H4</td>
+    <td class="qr"><img src="qr/0204_AI_BIEU_BINH_CHUNG_AC_CONG.png" alt="QR 0204"></td>
+    <td class="link"><a href="guests/0204_AI_BIEU_BINH_CHUNG_AC_CONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0205</td>
+    <td class="name">ĐẠI BIỂU CỤC TIÊU CHUẨN ĐO LƯỜNG CHẤT LƯỢNG</td>
+    <td class="title"></td>
+    <td class="seat">H6</td>
+    <td class="qr"><img src="qr/0205_AI_BIEU_CUC_TIEU_CHUAN_O_LUONG_CHAT_LUONG.png" alt="QR 0205"></td>
+    <td class="link"><a href="guests/0205_AI_BIEU_CUC_TIEU_CHUAN_O_LUONG_CHAT_LUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0206</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO CÔNG AN TỈNH KHÁNH HÒA</td>
+    <td class="title"></td>
+    <td class="seat">H8</td>
+    <td class="qr"><img src="qr/0206_AI_BIEU_LANH_AO_CONG_AN_TINH_KHANH_HOA.png" alt="QR 0206"></td>
+    <td class="link"><a href="guests/0206_AI_BIEU_LANH_AO_CONG_AN_TINH_KHANH_HOA.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0207</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO CÔNG AN TỈNH ĐĂK LĂK</td>
+    <td class="title"></td>
+    <td class="seat">H10</td>
+    <td class="qr"><img src="qr/0207_AI_BIEU_LANH_AO_CONG_AN_TINH_AK_LAK.png" alt="QR 0207"></td>
+    <td class="link"><a href="guests/0207_AI_BIEU_LANH_AO_CONG_AN_TINH_AK_LAK.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0208</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO CÔNG AN TỈNH GIA LAI</td>
+    <td class="title"></td>
+    <td class="seat">H12</td>
+    <td class="qr"><img src="qr/0208_AI_BIEU_LANH_AO_CONG_AN_TINH_GIA_LAI.png" alt="QR 0208"></td>
+    <td class="link"><a href="guests/0208_AI_BIEU_LANH_AO_CONG_AN_TINH_GIA_LAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0209</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO CÔNG AN TỈNH QUẢNG NGÃI</td>
+    <td class="title"></td>
+    <td class="seat">H14</td>
+    <td class="qr"><img src="qr/0209_AI_BIEU_LANH_AO_CONG_AN_TINH_QUANG_NGAI.png" alt="QR 0209"></td>
+    <td class="link"><a href="guests/0209_AI_BIEU_LANH_AO_CONG_AN_TINH_QUANG_NGAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0210</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO CÔNG AN THÀNH PHỐ ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">H16</td>
+    <td class="qr"><img src="qr/0210_AI_BIEU_LANH_AO_CONG_AN_THANH_PHO_A_NANG.png" alt="QR 0210"></td>
+    <td class="link"><a href="guests/0210_AI_BIEU_LANH_AO_CONG_AN_THANH_PHO_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0211</td>
+    <td class="name">ĐẠI TÁ NGUYỄN HỮU CHỈNH</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">H18</td>
+    <td class="qr"><img src="qr/0211_AI_TA_NGUYEN_HUU_CHINH.png" alt="QR 0211"></td>
+    <td class="link"><a href="guests/0211_AI_TA_NGUYEN_HUU_CHINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0212</td>
+    <td class="name">ĐẠI TÁ LÊ VĂN HẢI</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM UBKT ĐẢNG ỦY QUÂN KHU</td>
+    <td class="seat">H20</td>
+    <td class="qr"><img src="qr/0212_AI_TA_LE_VAN_HAI.png" alt="QR 0212"></td>
+    <td class="link"><a href="guests/0212_AI_TA_LE_VAN_HAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0213</td>
+    <td class="name">ĐẠI TÁ HUỲNH CAO THIỆN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM UBKT ĐẢNG ỦY QUÂN KHU</td>
+    <td class="seat">H22</td>
+    <td class="qr"><img src="qr/0213_AI_TA_HUYNH_CAO_THIEN.png" alt="QR 0213"></td>
+    <td class="link"><a href="guests/0213_AI_TA_HUYNH_CAO_THIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0214</td>
+    <td class="name">ĐẠI TÁ TẠ KÍNH</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM CHÍNH TRỊ QUÂN KHU</td>
+    <td class="seat">H24</td>
+    <td class="qr"><img src="qr/0214_AI_TA_TA_KINH.png" alt="QR 0214"></td>
+    <td class="link"><a href="guests/0214_AI_TA_TA_KINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0215</td>
+    <td class="name">ĐẠI TÁ TÔN THẤT HẢI</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">H26</td>
+    <td class="qr"><img src="qr/0215_AI_TA_TON_THAT_HAI.png" alt="QR 0215"></td>
+    <td class="link"><a href="guests/0215_AI_TA_TON_THAT_HAI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0216</td>
+    <td class="name">ĐẠI TÁ NGUYỄN TRUNG KHANH</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">H28</td>
+    <td class="qr"><img src="qr/0216_AI_TA_NGUYEN_TRUNG_KHANH.png" alt="QR 0216"></td>
+    <td class="link"><a href="guests/0216_AI_TA_NGUYEN_TRUNG_KHANH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0217</td>
+    <td class="name">ĐẠI TÁ DƯƠNG CÔNG TRI</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">H30</td>
+    <td class="qr"><img src="qr/0217_AI_TA_DUONG_CONG_TRI.png" alt="QR 0217"></td>
+    <td class="link"><a href="guests/0217_AI_TA_DUONG_CONG_TRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0218</td>
+    <td class="name">ĐẠI TÁ PHẠM ĐỨC DŨNG</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">H32</td>
+    <td class="qr"><img src="qr/0218_AI_TA_PHAM_UC_DUNG.png" alt="QR 0218"></td>
+    <td class="link"><a href="guests/0218_AI_TA_PHAM_UC_DUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0219</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO ĐÀI TIẾNG NÓI VIỆT NAM VOV KV MIIỀN TRUNG</td>
+    <td class="title"></td>
+    <td class="seat">I1</td>
+    <td class="qr"><img src="qr/0219_AI_BIEU_LANH_AO_AI_TIENG_NOI_VIET_NAM_VOV_KV_MIIEN_TRUNG.png" alt="QR 0219"></td>
+    <td class="link"><a href="guests/0219_AI_BIEU_LANH_AO_AI_TIENG_NOI_VIET_NAM_VOV_KV_MIIEN_TRUNG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0220</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO ĐÀI TRUYỀN HÌNH VIỆT NAM VTV8</td>
+    <td class="title"></td>
+    <td class="seat">I3</td>
+    <td class="qr"><img src="qr/0220_AI_BIEU_LANH_AO_AI_TRUYEN_HINH_VIET_NAM_VTV8.png" alt="QR 0220"></td>
+    <td class="link"><a href="guests/0220_AI_BIEU_LANH_AO_AI_TRUYEN_HINH_VIET_NAM_VTV8.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0221</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BÁO QUÂN ĐỘI NHÂN DÂN</td>
+    <td class="title"></td>
+    <td class="seat">I5</td>
+    <td class="qr"><img src="qr/0221_AI_BIEU_LANH_AO_BAO_QUAN_OI_NHAN_DAN.png" alt="QR 0221"></td>
+    <td class="link"><a href="guests/0221_AI_BIEU_LANH_AO_BAO_QUAN_OI_NHAN_DAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0222</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO CỔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ</td>
+    <td class="title"></td>
+    <td class="seat">I7</td>
+    <td class="qr"><img src="qr/0222_AI_BIEU_LANH_AO_CONG_THONG_TIN_IEN_TU_CHINH_PHU.png" alt="QR 0222"></td>
+    <td class="link"><a href="guests/0222_AI_BIEU_LANH_AO_CONG_THONG_TIN_IEN_TU_CHINH_PHU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0223</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO VIỆN Y HỌC CỔ TRUYỀN QUÂN ĐỘI</td>
+    <td class="title"></td>
+    <td class="seat">I9</td>
+    <td class="qr"><img src="qr/0223_AI_BIEU_LANH_AO_VIEN_Y_HOC_CO_TRUYEN_QUAN_OI.png" alt="QR 0223"></td>
+    <td class="link"><a href="guests/0223_AI_BIEU_LANH_AO_VIEN_Y_HOC_CO_TRUYEN_QUAN_OI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0224</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BÁO NHÂN DÂN</td>
+    <td class="title"></td>
+    <td class="seat">I11</td>
+    <td class="qr"><img src="qr/0224_AI_BIEU_LANH_AO_BAO_NHAN_DAN.png" alt="QR 0224"></td>
+    <td class="link"><a href="guests/0224_AI_BIEU_LANH_AO_BAO_NHAN_DAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0225</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO KÊNH TRUYỀN HÌNH QUỐC PHÒNG VIỆT NAM</td>
+    <td class="title"></td>
+    <td class="seat">I13</td>
+    <td class="qr"><img src="qr/0225_AI_BIEU_LANH_AO_KENH_TRUYEN_HINH_QUOC_PHONG_VIET_NAM.png" alt="QR 0225"></td>
+    <td class="link"><a href="guests/0225_AI_BIEU_LANH_AO_KENH_TRUYEN_HINH_QUOC_PHONG_VIET_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0226</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO THÔNG TẤN XÃ VIỆT NAM</td>
+    <td class="title"></td>
+    <td class="seat">I15</td>
+    <td class="qr"><img src="qr/0226_AI_BIEU_LANH_AO_THONG_TAN_XA_VIET_NAM.png" alt="QR 0226"></td>
+    <td class="link"><a href="guests/0226_AI_BIEU_LANH_AO_THONG_TAN_XA_VIET_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0227</td>
+    <td class="name">ĐẠI BIỂU TỔNG CÔNG TY ĐẦU TƯ PHÁT TRIỂN NHÀ VÀ ĐÔ  THỊ</td>
+    <td class="title"></td>
+    <td class="seat">I17</td>
+    <td class="qr"><img src="qr/0227_AI_BIEU_TONG_CONG_TY_AU_TU_PHAT_TRIEN_NHA_VA_O_THI.png" alt="QR 0227"></td>
+    <td class="link"><a href="guests/0227_AI_BIEU_TONG_CONG_TY_AU_TU_PHAT_TRIEN_NHA_VA_O_THI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0228</td>
+    <td class="name">ĐẠI BIỂU CÔNG TY ỨNG DỤNG KỸ THUẬT VÀ SẢN XUẤT</td>
+    <td class="title"></td>
+    <td class="seat">I19</td>
+    <td class="qr"><img src="qr/0228_AI_BIEU_CONG_TY_UNG_DUNG_KY_THUAT_VA_SAN_XUAT.png" alt="QR 0228"></td>
+    <td class="link"><a href="guests/0228_AI_BIEU_CONG_TY_UNG_DUNG_KY_THUAT_VA_SAN_XUAT.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0229</td>
+    <td class="name">ĐẠI BIỂU TỔNG CÔNG TY XUẤT NHẬP KHẨU TỔNG HỢP VẠN XUÂN</td>
+    <td class="title"></td>
+    <td class="seat">I21</td>
+    <td class="qr"><img src="qr/0229_AI_BIEU_TONG_CONG_TY_XUAT_NHAP_KHAU_TONG_HOP_VAN_XUAN.png" alt="QR 0229"></td>
+    <td class="link"><a href="guests/0229_AI_BIEU_TONG_CONG_TY_XUAT_NHAP_KHAU_TONG_HOP_VAN_XUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0230</td>
+    <td class="name">ĐẠI BIỂU TỔNG CÔNG TY THÁI SƠN</td>
+    <td class="title"></td>
+    <td class="seat">I23</td>
+    <td class="qr"><img src="qr/0230_AI_BIEU_TONG_CONG_TY_THAI_SON.png" alt="QR 0230"></td>
+    <td class="link"><a href="guests/0230_AI_BIEU_TONG_CONG_TY_THAI_SON.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0231</td>
+    <td class="name">ĐẠI BIỂU TỔNG CÔNG TY 36 CÔNG TY CỔ PHẦN</td>
+    <td class="title"></td>
+    <td class="seat">I25</td>
+    <td class="qr"><img src="qr/0231_AI_BIEU_TONG_CONG_TY_36_CONG_TY_CO_PHAN.png" alt="QR 0231"></td>
+    <td class="link"><a href="guests/0231_AI_BIEU_TONG_CONG_TY_36_CONG_TY_CO_PHAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0232</td>
+    <td class="name">ĐẠI BIỂU TỔNG CÔNG TY XÂY DỰNG LŨNG LÔ</td>
+    <td class="title"></td>
+    <td class="seat">I27</td>
+    <td class="qr"><img src="qr/0232_AI_BIEU_TONG_CONG_TY_XAY_DUNG_LUNG_LO.png" alt="QR 0232"></td>
+    <td class="link"><a href="guests/0232_AI_BIEU_TONG_CONG_TY_XAY_DUNG_LUNG_LO.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0233</td>
+    <td class="name">ĐẠI BIỂU TẬP ĐOÀN CÔNG NGHIỆP VIỄN THÔNG QUÂN ĐỘI</td>
+    <td class="title"></td>
+    <td class="seat">I29</td>
+    <td class="qr"><img src="qr/0233_AI_BIEU_TAP_OAN_CONG_NGHIEP_VIEN_THONG_QUAN_OI.png" alt="QR 0233"></td>
+    <td class="link"><a href="guests/0233_AI_BIEU_TAP_OAN_CONG_NGHIEP_VIEN_THONG_QUAN_OI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0234</td>
+    <td class="name">ĐẠI BIỂU NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN QUÂN ĐỘI</td>
+    <td class="title"></td>
+    <td class="seat">I31</td>
+    <td class="qr"><img src="qr/0234_AI_BIEU_NGAN_HANG_THUONG_MAI_CO_PHAN_QUAN_OI.png" alt="QR 0234"></td>
+    <td class="link"><a href="guests/0234_AI_BIEU_NGAN_HANG_THUONG_MAI_CO_PHAN_QUAN_OI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0235</td>
+    <td class="name">ĐẠI BIỂU BINH CHỦNG CÔNG BINH</td>
+    <td class="title"></td>
+    <td class="seat">I2</td>
+    <td class="qr"><img src="qr/0235_AI_BIEU_BINH_CHUNG_CONG_BINH.png" alt="QR 0235"></td>
+    <td class="link"><a href="guests/0235_AI_BIEU_BINH_CHUNG_CONG_BINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0236</td>
+    <td class="name">ĐẠI BIỂU BINH CHỦNG HÓA HỌC</td>
+    <td class="title"></td>
+    <td class="seat">I4</td>
+    <td class="qr"><img src="qr/0236_AI_BIEU_BINH_CHUNG_HOA_HOC.png" alt="QR 0236"></td>
+    <td class="link"><a href="guests/0236_AI_BIEU_BINH_CHUNG_HOA_HOC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0237</td>
+    <td class="name">ĐẠI BIỂU BINH CHỦNG THÔNG TIN LIÊN LẠC</td>
+    <td class="title"></td>
+    <td class="seat">I6</td>
+    <td class="qr"><img src="qr/0237_AI_BIEU_BINH_CHUNG_THONG_TIN_LIEN_LAC.png" alt="QR 0237"></td>
+    <td class="link"><a href="guests/0237_AI_BIEU_BINH_CHUNG_THONG_TIN_LIEN_LAC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0238</td>
+    <td class="name">ĐẠI BIỂU HỌC VIỆN KHOA HỌC QUÂN SỰ</td>
+    <td class="title"></td>
+    <td class="seat">I8</td>
+    <td class="qr"><img src="qr/0238_AI_BIEU_HOC_VIEN_KHOA_HOC_QUAN_SU.png" alt="QR 0238"></td>
+    <td class="link"><a href="guests/0238_AI_BIEU_HOC_VIEN_KHOA_HOC_QUAN_SU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0239</td>
+    <td class="name">ĐẠI BIỂU HỌC VIỆN QUỐC PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">I10</td>
+    <td class="qr"><img src="qr/0239_AI_BIEU_HOC_VIEN_QUOC_PHONG.png" alt="QR 0239"></td>
+    <td class="link"><a href="guests/0239_AI_BIEU_HOC_VIEN_QUOC_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0240</td>
+    <td class="name">ĐẠI BIỂU HỌC VIỆN LỤC QUÂN</td>
+    <td class="title"></td>
+    <td class="seat">I12</td>
+    <td class="qr"><img src="qr/0240_AI_BIEU_HOC_VIEN_LUC_QUAN.png" alt="QR 0240"></td>
+    <td class="link"><a href="guests/0240_AI_BIEU_HOC_VIEN_LUC_QUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0241</td>
+    <td class="name">ĐẠI BIỂU HỌC VIỆN CHÍNH TRỊ</td>
+    <td class="title"></td>
+    <td class="seat">I14</td>
+    <td class="qr"><img src="qr/0241_AI_BIEU_HOC_VIEN_CHINH_TRI.png" alt="QR 0241"></td>
+    <td class="link"><a href="guests/0241_AI_BIEU_HOC_VIEN_CHINH_TRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0242</td>
+    <td class="name">ĐẠI BIỂU TRƯỜNG SỸ QUAN CHÍNH TRỊ</td>
+    <td class="title"></td>
+    <td class="seat">I16</td>
+    <td class="qr"><img src="qr/0242_AI_BIEU_TRUONG_SY_QUAN_CHINH_TRI.png" alt="QR 0242"></td>
+    <td class="link"><a href="guests/0242_AI_BIEU_TRUONG_SY_QUAN_CHINH_TRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0243</td>
+    <td class="name">ĐẠI TÁ VÕ HOÀI NAM</td>
+    <td class="title">NGUYÊN CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">I18</td>
+    <td class="qr"><img src="qr/0243_AI_TA_VO_HOAI_NAM.png" alt="QR 0243"></td>
+    <td class="link"><a href="guests/0243_AI_TA_VO_HOAI_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0244</td>
+    <td class="name">ĐẠI TÁ NGUYỄN LÊN</td>
+    <td class="title">NGUYÊN CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">I20</td>
+    <td class="qr"><img src="qr/0244_AI_TA_NGUYEN_LEN.png" alt="QR 0244"></td>
+    <td class="link"><a href="guests/0244_AI_TA_NGUYEN_LEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0245</td>
+    <td class="name">ĐẠI TÁ NGÔ TẤN NHẤT</td>
+    <td class="title">NGUYÊN CHÍNH ỦY CỤC HẬU CẦN QUÂN KHU</td>
+    <td class="seat">I22</td>
+    <td class="qr"><img src="qr/0245_AI_TA_NGO_TAN_NHAT.png" alt="QR 0245"></td>
+    <td class="link"><a href="guests/0245_AI_TA_NGO_TAN_NHAT.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0246</td>
+    <td class="name">ĐẠI TÁ NGÔ TIẾN SỸ</td>
+    <td class="title">NGUYÊN CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">I24</td>
+    <td class="qr"><img src="qr/0246_AI_TA_NGO_TIEN_SY.png" alt="QR 0246"></td>
+    <td class="link"><a href="guests/0246_AI_TA_NGO_TIEN_SY.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0247</td>
+    <td class="name">ĐẠI TÁ LÊ QUANG TRÌNH</td>
+    <td class="title">NGUYÊN CHÍNH ỦY CỤC HẬU CẦN QUÂN KHU</td>
+    <td class="seat">I26</td>
+    <td class="qr"><img src="qr/0247_AI_TA_LE_QUANG_TRINH.png" alt="QR 0247"></td>
+    <td class="link"><a href="guests/0247_AI_TA_LE_QUANG_TRINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0248</td>
+    <td class="name">ĐẠI TÁ TRẦN CÔNG MẠNH</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">I28</td>
+    <td class="qr"><img src="qr/0248_AI_TA_TRAN_CONG_MANH.png" alt="QR 0248"></td>
+    <td class="link"><a href="guests/0248_AI_TA_TRAN_CONG_MANH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0249</td>
+    <td class="name">ĐẠI TÁ TRẦN THIỆN PHƯỚC</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM HẬU CẦN QUÂN KHU</td>
+    <td class="seat">I30</td>
+    <td class="qr"><img src="qr/0249_AI_TA_TRAN_THIEN_PHUOC.png" alt="QR 0249"></td>
+    <td class="link"><a href="guests/0249_AI_TA_TRAN_THIEN_PHUOC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0250</td>
+    <td class="name">ĐẠI TÁ LÊ PHÚC THẮNG</td>
+    <td class="title">NGUYÊN CHỦ NHIỆM KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">I32</td>
+    <td class="qr"><img src="qr/0250_AI_TA_LE_PHUC_THANG.png" alt="QR 0250"></td>
+    <td class="link"><a href="guests/0250_AI_TA_LE_PHUC_THANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0251</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO TRUNG TÂM PHÁT THANH TRUYỀN HÌNH QUÂN ĐỘI</td>
+    <td class="title"></td>
+    <td class="seat">J1</td>
+    <td class="qr"><img src="qr/0251_AI_BIEU_LANH_AO_TRUNG_TAM_PHAT_THANH_TRUYEN_HINH_QUAN_OI.png" alt="QR 0251"></td>
+    <td class="link"><a href="guests/0251_AI_BIEU_LANH_AO_TRUNG_TAM_PHAT_THANH_TRUYEN_HINH_QUAN_OI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0252</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BAN GIÁM ĐỐC BỆNH VIỆN PHỤ SẢN NHI ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">J3</td>
+    <td class="qr"><img src="qr/0252_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_PHU_SAN_NHI_A_NANG.png" alt="QR 0252"></td>
+    <td class="link"><a href="guests/0252_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_PHU_SAN_NHI_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0253</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BAN GIÁM ĐỐC BỆNH VIỆN C ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">J5</td>
+    <td class="qr"><img src="qr/0253_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_C_A_NANG.png" alt="QR 0253"></td>
+    <td class="link"><a href="guests/0253_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_C_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0254</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO ĐẠI HỌC ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">J7</td>
+    <td class="qr"><img src="qr/0254_AI_BIEU_LANH_AO_AI_HOC_A_NANG.png" alt="QR 0254"></td>
+    <td class="link"><a href="guests/0254_AI_BIEU_LANH_AO_AI_HOC_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0255</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BÁO VÀ PHÁT THANH TRUYỀN HÌNH ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">J9</td>
+    <td class="qr"><img src="qr/0255_AI_BIEU_LANH_AO_BAO_VA_PHAT_THANH_TRUYEN_HINH_A_NANG.png" alt="QR 0255"></td>
+    <td class="link"><a href="guests/0255_AI_BIEU_LANH_AO_BAO_VA_PHAT_THANH_TRUYEN_HINH_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0256</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BAN GIÁM ĐỐC BỆNH VIỆN MẮT ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">J11</td>
+    <td class="qr"><img src="qr/0256_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_MAT_A_NANG.png" alt="QR 0256"></td>
+    <td class="link"><a href="guests/0256_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_MAT_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0257</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BAN GIÁM ĐỐC BỆNH VIỆN ĐA KHOA ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">J13</td>
+    <td class="qr"><img src="qr/0257_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_A_KHOA_A_NANG.png" alt="QR 0257"></td>
+    <td class="link"><a href="guests/0257_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_A_KHOA_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0258</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BAN GIÁM ĐỐC BỆNH VIỆN UNG BƯỚU ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">J15</td>
+    <td class="qr"><img src="qr/0258_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_UNG_BUOU_A_NANG.png" alt="QR 0258"></td>
+    <td class="link"><a href="guests/0258_AI_BIEU_LANH_AO_BAN_GIAM_OC_BENH_VIEN_UNG_BUOU_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0259</td>
+    <td class="name">ĐẠI BIỂU TỔNG CÔNG TY ĐÔNG BẮC (BĐ19)</td>
+    <td class="title"></td>
+    <td class="seat">J17</td>
+    <td class="qr"><img src="qr/0259_AI_BIEU_TONG_CONG_TY_ONG_BAC_(B19).png" alt="QR 0259"></td>
+    <td class="link"><a href="guests/0259_AI_BIEU_TONG_CONG_TY_ONG_BAC_(B19).html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0260</td>
+    <td class="name">ĐẠI BIỂU BINH ĐOÀN 18</td>
+    <td class="title"></td>
+    <td class="seat">J19</td>
+    <td class="qr"><img src="qr/0260_AI_BIEU_BINH_OAN_18.png" alt="QR 0260"></td>
+    <td class="link"><a href="guests/0260_AI_BIEU_BINH_OAN_18.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0261</td>
+    <td class="name">ĐẠI BIỂU BINH ĐOÀN 16</td>
+    <td class="title"></td>
+    <td class="seat">J21</td>
+    <td class="qr"><img src="qr/0261_AI_BIEU_BINH_OAN_16.png" alt="QR 0261"></td>
+    <td class="link"><a href="guests/0261_AI_BIEU_BINH_OAN_16.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0262</td>
+    <td class="name">ĐẠI BIỂU BINH ĐOÀN 15</td>
+    <td class="title"></td>
+    <td class="seat">J23</td>
+    <td class="qr"><img src="qr/0262_AI_BIEU_BINH_OAN_15.png" alt="QR 0262"></td>
+    <td class="link"><a href="guests/0262_AI_BIEU_BINH_OAN_15.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0263</td>
+    <td class="name">ĐẠI BIỂU BINH ĐOÀN 12</td>
+    <td class="title"></td>
+    <td class="seat">J25</td>
+    <td class="qr"><img src="qr/0263_AI_BIEU_BINH_OAN_12.png" alt="QR 0263"></td>
+    <td class="link"><a href="guests/0263_AI_BIEU_BINH_OAN_12.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0264</td>
+    <td class="name">ĐẠI BIỂU BINH ĐOÀN 11</td>
+    <td class="title"></td>
+    <td class="seat">J27</td>
+    <td class="qr"><img src="qr/0264_AI_BIEU_BINH_OAN_11.png" alt="QR 0264"></td>
+    <td class="link"><a href="guests/0264_AI_BIEU_BINH_OAN_11.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0265</td>
+    <td class="name">ĐẠI BIỂU CÔNG TY THÀNH AN 96</td>
+    <td class="title"></td>
+    <td class="seat">J29</td>
+    <td class="qr"><img src="qr/0265_AI_BIEU_CONG_TY_THANH_AN_96.png" alt="QR 0265"></td>
+    <td class="link"><a href="guests/0265_AI_BIEU_CONG_TY_THANH_AN_96.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0266</td>
+    <td class="name">ĐẠI BIỂU TỔNG CÔNG TY 319</td>
+    <td class="title"></td>
+    <td class="seat">J31</td>
+    <td class="qr"><img src="qr/0266_AI_BIEU_TONG_CONG_TY_319.png" alt="QR 0266"></td>
+    <td class="link"><a href="guests/0266_AI_BIEU_TONG_CONG_TY_319.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0267</td>
+    <td class="name">ĐẠI BIỂU BAN PHỤ NỮ QUÂN ĐỘI</td>
+    <td class="title"></td>
+    <td class="seat">J2</td>
+    <td class="qr"><img src="qr/0267_AI_BIEU_BAN_PHU_NU_QUAN_OI.png" alt="QR 0267"></td>
+    <td class="link"><a href="guests/0267_AI_BIEU_BAN_PHU_NU_QUAN_OI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0268</td>
+    <td class="name">ĐẠI BIỂU BAN CÔNG  ĐOÀN QUỐC PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">J4</td>
+    <td class="qr"><img src="qr/0268_AI_BIEU_BAN_CONG_OAN_QUOC_PHONG.png" alt="QR 0268"></td>
+    <td class="link"><a href="guests/0268_AI_BIEU_BAN_CONG_OAN_QUOC_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0269</td>
+    <td class="name">ĐẠI BIỂU TRƯỜNG SỸ QUAN THÔNG TIN</td>
+    <td class="title"></td>
+    <td class="seat">J6</td>
+    <td class="qr"><img src="qr/0269_AI_BIEU_TRUONG_SY_QUAN_THONG_TIN.png" alt="QR 0269"></td>
+    <td class="link"><a href="guests/0269_AI_BIEU_TRUONG_SY_QUAN_THONG_TIN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0270</td>
+    <td class="name">ĐẠI BIỂU HỌC VIỆN KỸ THUẬT QUÂN SỰ</td>
+    <td class="title"></td>
+    <td class="seat">J8</td>
+    <td class="qr"><img src="qr/0270_AI_BIEU_HOC_VIEN_KY_THUAT_QUAN_SU.png" alt="QR 0270"></td>
+    <td class="link"><a href="guests/0270_AI_BIEU_HOC_VIEN_KY_THUAT_QUAN_SU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0271</td>
+    <td class="name">ĐẠI BIỂU HỌC VIỆN HẬU CẦN</td>
+    <td class="title"></td>
+    <td class="seat">J10</td>
+    <td class="qr"><img src="qr/0271_AI_BIEU_HOC_VIEN_HAU_CAN.png" alt="QR 0271"></td>
+    <td class="link"><a href="guests/0271_AI_BIEU_HOC_VIEN_HAU_CAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0272</td>
+    <td class="name">ĐẠI BIỂU HỌC VIỆN QUÂN Y</td>
+    <td class="title"></td>
+    <td class="seat">J12</td>
+    <td class="qr"><img src="qr/0272_AI_BIEU_HOC_VIEN_QUAN_Y.png" alt="QR 0272"></td>
+    <td class="link"><a href="guests/0272_AI_BIEU_HOC_VIEN_QUAN_Y.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0273</td>
+    <td class="name">ĐẠI BIỂU TRƯỜNG SỸ QUAN LỤC QUÂN 2</td>
+    <td class="title"></td>
+    <td class="seat">J14</td>
+    <td class="qr"><img src="qr/0273_AI_BIEU_TRUONG_SY_QUAN_LUC_QUAN_2.png" alt="QR 0273"></td>
+    <td class="link"><a href="guests/0273_AI_BIEU_TRUONG_SY_QUAN_LUC_QUAN_2.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0274</td>
+    <td class="name">ĐẠI BIỂU TRƯỜNG SỸ QUAN LỤC QUÂN 1</td>
+    <td class="title"></td>
+    <td class="seat">J16</td>
+    <td class="qr"><img src="qr/0274_AI_BIEU_TRUONG_SY_QUAN_LUC_QUAN_1.png" alt="QR 0274"></td>
+    <td class="link"><a href="guests/0274_AI_BIEU_TRUONG_SY_QUAN_LUC_QUAN_1.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0275</td>
+    <td class="name">ĐẠI TÁ NGUYỄN NGỌC BÂNG</td>
+    <td class="title">NGUYÊN CHỦ NHIỆM KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">J18</td>
+    <td class="qr"><img src="qr/0275_AI_TA_NGUYEN_NGOC_BANG.png" alt="QR 0275"></td>
+    <td class="link"><a href="guests/0275_AI_TA_NGUYEN_NGOC_BANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0276</td>
+    <td class="name">ĐẠI TÁ NGUYỄN VĂN KHÁNH</td>
+    <td class="title">NGUYÊN CHÍNH ỦY CỤC KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">J20</td>
+    <td class="qr"><img src="qr/0276_AI_TA_NGUYEN_VAN_KHANH.png" alt="QR 0276"></td>
+    <td class="link"><a href="guests/0276_AI_TA_NGUYEN_VAN_KHANH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0277</td>
+    <td class="name">ĐẠI TÁ NGUYỄN VĂN TIÊN</td>
+    <td class="title">NGUYÊN CHỦ NHIỆM KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">J22</td>
+    <td class="qr"><img src="qr/0277_AI_TA_NGUYEN_VAN_TIEN.png" alt="QR 0277"></td>
+    <td class="link"><a href="guests/0277_AI_TA_NGUYEN_VAN_TIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0278</td>
+    <td class="name">ĐẠI TÁ TRẦN XUÂN SƠN</td>
+    <td class="title">NGUYÊN CHÍNH ỦY CỤC KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">J24</td>
+    <td class="qr"><img src="qr/0278_AI_TA_TRAN_XUAN_SON.png" alt="QR 0278"></td>
+    <td class="link"><a href="guests/0278_AI_TA_TRAN_XUAN_SON.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0279</td>
+    <td class="name">ĐẠI TÁ ĐẶNG VĂN MAU</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">J26</td>
+    <td class="qr"><img src="qr/0279_AI_TA_ANG_VAN_MAU.png" alt="QR 0279"></td>
+    <td class="link"><a href="guests/0279_AI_TA_ANG_VAN_MAU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0280</td>
+    <td class="name">ĐẠI TÁ NGUYỄN HOÀNH KHIẾU</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">J28</td>
+    <td class="qr"><img src="qr/0280_AI_TA_NGUYEN_HOANH_KHIEU.png" alt="QR 0280"></td>
+    <td class="link"><a href="guests/0280_AI_TA_NGUYEN_HOANH_KHIEU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0281</td>
+    <td class="name">ĐẠI TÁ NGUYỄN THÀNH THIỆN</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">J30</td>
+    <td class="qr"><img src="qr/0281_AI_TA_NGUYEN_THANH_THIEN.png" alt="QR 0281"></td>
+    <td class="link"><a href="guests/0281_AI_TA_NGUYEN_THANH_THIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0282</td>
+    <td class="name">ĐẠI TÁ NGUYỄN VĂN MINH</td>
+    <td class="title">NGUYÊN PHÓ CHỦ NHIỆM KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">J32</td>
+    <td class="qr"><img src="qr/0282_AI_TA_NGUYEN_VAN_MINH.png" alt="QR 0282"></td>
+    <td class="link"><a href="guests/0282_AI_TA_NGUYEN_VAN_MINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0283</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG PHẠM HOÀI NAM</td>
+    <td class="title"></td>
+    <td class="seat">K1</td>
+    <td class="qr"><img src="qr/0283_THU_KY_THU_TRUONG_PHAM_HOAI_NAM.png" alt="QR 0283"></td>
+    <td class="link"><a href="guests/0283_THU_KY_THU_TRUONG_PHAM_HOAI_NAM.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0284</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG BỘ TỔNG THAM MƯU</td>
+    <td class="title"></td>
+    <td class="seat">K3</td>
+    <td class="qr"><img src="qr/0284_THU_KY_THU_TRUONG_BO_TONG_THAM_MUU.png" alt="QR 0284"></td>
+    <td class="link"><a href="guests/0284_THU_KY_THU_TRUONG_BO_TONG_THAM_MUU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0285</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG TỔNG CỤC II</td>
+    <td class="title"></td>
+    <td class="seat">K5</td>
+    <td class="qr"><img src="qr/0285_THU_KY_THU_TRUONG_TONG_CUC_II.png" alt="QR 0285"></td>
+    <td class="link"><a href="guests/0285_THU_KY_THU_TRUONG_TONG_CUC_II.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0286</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO HỘI NHÀ BÁO ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">K7</td>
+    <td class="qr"><img src="qr/0286_AI_BIEU_LANH_AO_HOI_NHA_BAO_A_NANG.png" alt="QR 0286"></td>
+    <td class="link"><a href="guests/0286_AI_BIEU_LANH_AO_HOI_NHA_BAO_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0287</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO BÁO CÔNG AN ĐÀ NẴNG</td>
+    <td class="title"></td>
+    <td class="seat">K9</td>
+    <td class="qr"><img src="qr/0287_AI_BIEU_LANH_AO_BAO_CONG_AN_A_NANG.png" alt="QR 0287"></td>
+    <td class="link"><a href="guests/0287_AI_BIEU_LANH_AO_BAO_CONG_AN_A_NANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0288</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG THÁI ĐẠI NGỌC</td>
+    <td class="title"></td>
+    <td class="seat">K11</td>
+    <td class="qr"><img src="qr/0288_THU_KY_THU_TRUONG_THAI_AI_NGOC.png" alt="QR 0288"></td>
+    <td class="link"><a href="guests/0288_THU_KY_THU_TRUONG_THAI_AI_NGOC.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0289</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG TỔNG CỤC CHÍNH TRỊ</td>
+    <td class="title"></td>
+    <td class="seat">K13</td>
+    <td class="qr"><img src="qr/0289_THU_KY_THU_TRUONG_TONG_CUC_CHINH_TRI.png" alt="QR 0289"></td>
+    <td class="link"><a href="guests/0289_THU_KY_THU_TRUONG_TONG_CUC_CHINH_TRI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0290</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG TRƯƠNG THIÊN TÔ</td>
+    <td class="title"></td>
+    <td class="seat">K15</td>
+    <td class="qr"><img src="qr/0290_THU_KY_THU_TRUONG_TRUONG_THIEN_TO.png" alt="QR 0290"></td>
+    <td class="link"><a href="guests/0290_THU_KY_THU_TRUONG_TRUONG_THIEN_TO.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0291</td>
+    <td class="name">ĐẠI TÁ NGUYỄN TRỌNG KHANG</td>
+    <td class="title">CHÁNH VĂN PHÒNG BỘ TƯ LỆNH</td>
+    <td class="seat">K17</td>
+    <td class="qr"><img src="qr/0291_AI_TA_NGUYEN_TRONG_KHANG.png" alt="QR 0291"></td>
+    <td class="link"><a href="guests/0291_AI_TA_NGUYEN_TRONG_KHANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0292</td>
+    <td class="name">TRƯỞNG PHÒNG TUYÊN HUẤN</td>
+    <td class="title">CỤC CHÍNH TRỊ</td>
+    <td class="seat">K19</td>
+    <td class="qr"><img src="qr/0292_TRUONG_PHONG_TUYEN_HUAN.png" alt="QR 0292"></td>
+    <td class="link"><a href="guests/0292_TRUONG_PHONG_TUYEN_HUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0293</td>
+    <td class="name">TRƯỞNG PHÒNG BẢO VỆ AN NINH</td>
+    <td class="title">CỤC CHÍNH TRỊ</td>
+    <td class="seat">K21</td>
+    <td class="qr"><img src="qr/0293_TRUONG_PHONG_BAO_VE_AN_NINH.png" alt="QR 0293"></td>
+    <td class="link"><a href="guests/0293_TRUONG_PHONG_BAO_VE_AN_NINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0294</td>
+    <td class="name">ĐẠI BIỂU BINH ĐOÀN 20</td>
+    <td class="title"></td>
+    <td class="seat">K23</td>
+    <td class="qr"><img src="qr/0294_AI_BIEU_BINH_OAN_20.png" alt="QR 0294"></td>
+    <td class="link"><a href="guests/0294_AI_BIEU_BINH_OAN_20.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0295</td>
+    <td class="name">ĐẠI BIỂU BAN THANH NIÊN QUÂN ĐỘI</td>
+    <td class="title"></td>
+    <td class="seat">K2</td>
+    <td class="qr"><img src="qr/0295_AI_BIEU_BAN_THANH_NIEN_QUAN_OI.png" alt="QR 0295"></td>
+    <td class="link"><a href="guests/0295_AI_BIEU_BAN_THANH_NIEN_QUAN_OI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0296</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH QUÂN KHU 1</td>
+    <td class="title"></td>
+    <td class="seat">K4</td>
+    <td class="qr"><img src="qr/0296_THU_KY_BO_TU_LENH_QUAN_KHU_1.png" alt="QR 0296"></td>
+    <td class="link"><a href="guests/0296_THU_KY_BO_TU_LENH_QUAN_KHU_1.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0297</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH QUÂN KHU 2</td>
+    <td class="title"></td>
+    <td class="seat">K6</td>
+    <td class="qr"><img src="qr/0297_THU_KY_BO_TU_LENH_QUAN_KHU_2.png" alt="QR 0297"></td>
+    <td class="link"><a href="guests/0297_THU_KY_BO_TU_LENH_QUAN_KHU_2.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0298</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH QUÂN KHU 3</td>
+    <td class="title"></td>
+    <td class="seat">K8</td>
+    <td class="qr"><img src="qr/0298_THU_KY_BO_TU_LENH_QUAN_KHU_3.png" alt="QR 0298"></td>
+    <td class="link"><a href="guests/0298_THU_KY_BO_TU_LENH_QUAN_KHU_3.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0299</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH QUÂN KHU 4</td>
+    <td class="title"></td>
+    <td class="seat">K10</td>
+    <td class="qr"><img src="qr/0299_THU_KY_BO_TU_LENH_QUAN_KHU_4.png" alt="QR 0299"></td>
+    <td class="link"><a href="guests/0299_THU_KY_BO_TU_LENH_QUAN_KHU_4.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0300</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH QUÂN KHU 7</td>
+    <td class="title"></td>
+    <td class="seat">K12</td>
+    <td class="qr"><img src="qr/0300_THU_KY_BO_TU_LENH_QUAN_KHU_7.png" alt="QR 0300"></td>
+    <td class="link"><a href="guests/0300_THU_KY_BO_TU_LENH_QUAN_KHU_7.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0301</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH QUÂN KHU 9</td>
+    <td class="title"></td>
+    <td class="seat">K14</td>
+    <td class="qr"><img src="qr/0301_THU_KY_BO_TU_LENH_QUAN_KHU_9.png" alt="QR 0301"></td>
+    <td class="link"><a href="guests/0301_THU_KY_BO_TU_LENH_QUAN_KHU_9.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0302</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH BẢO VỆ LĂNG CHỦ TỊCH HỒ CHÍ MINH</td>
+    <td class="title"></td>
+    <td class="seat">K16</td>
+    <td class="qr"><img src="qr/0302_THU_KY_BO_TU_LENH_BAO_VE_LANG_CHU_TICH_HO_CHI_MINH.png" alt="QR 0302"></td>
+    <td class="link"><a href="guests/0302_THU_KY_BO_TU_LENH_BAO_VE_LANG_CHU_TICH_HO_CHI_MINH.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0303</td>
+    <td class="name">ĐẠI TÁ TRẦN ĐÌNH ĐANG</td>
+    <td class="title">NGUYÊN CHÍNH ỦY CỤC KỸ THUẬT QUÂN KHU</td>
+    <td class="seat">K18</td>
+    <td class="qr"><img src="qr/0303_AI_TA_TRAN_INH_ANG.png" alt="QR 0303"></td>
+    <td class="link"><a href="guests/0303_AI_TA_TRAN_INH_ANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0304</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO ĐẢNG ỦY PHƯỜNG CẨM LỆ</td>
+    <td class="title"></td>
+    <td class="seat">K20</td>
+    <td class="qr"><img src="qr/0304_AI_BIEU_LANH_AO_ANG_UY_PHUONG_CAM_LE.png" alt="QR 0304"></td>
+    <td class="link"><a href="guests/0304_AI_BIEU_LANH_AO_ANG_UY_PHUONG_CAM_LE.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0305</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO ĐẢNG ỦY PHƯỜNG HẢI CHÂU</td>
+    <td class="title"></td>
+    <td class="seat">K22</td>
+    <td class="qr"><img src="qr/0305_AI_BIEU_LANH_AO_ANG_UY_PHUONG_HAI_CHAU.png" alt="QR 0305"></td>
+    <td class="link"><a href="guests/0305_AI_BIEU_LANH_AO_ANG_UY_PHUONG_HAI_CHAU.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0306</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO ĐẢNG ỦY PHƯỜNG AN KHÊ</td>
+    <td class="title"></td>
+    <td class="seat">K24</td>
+    <td class="qr"><img src="qr/0306_AI_BIEU_LANH_AO_ANG_UY_PHUONG_AN_KHE.png" alt="QR 0306"></td>
+    <td class="link"><a href="guests/0306_AI_BIEU_LANH_AO_ANG_UY_PHUONG_AN_KHE.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0307</td>
+    <td class="name">ĐẠI BIỂU LÃNH ĐẠO ĐẢNG ỦY PHƯỜNG HÒA CƯỜNG</td>
+    <td class="title"></td>
+    <td class="seat">K26</td>
+    <td class="qr"><img src="qr/0307_AI_BIEU_LANH_AO_ANG_UY_PHUONG_HOA_CUONG.png" alt="QR 0307"></td>
+    <td class="link"><a href="guests/0307_AI_BIEU_LANH_AO_ANG_UY_PHUONG_HOA_CUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0308</td>
+    <td class="name">ĐẠI BIỂU PHIÊN DỊCH VIÊN</td>
+    <td class="title"></td>
+    <td class="seat">K30</td>
+    <td class="qr"><img src="qr/0308_AI_BIEU_PHIEN_DICH_VIEN.png" alt="QR 0308"></td>
+    <td class="link"><a href="guests/0308_AI_BIEU_PHIEN_DICH_VIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0309</td>
+    <td class="name">ĐẠI BIỂU PHIÊN DỊCH VIÊN</td>
+    <td class="title"></td>
+    <td class="seat">K32</td>
+    <td class="qr"><img src="qr/0309_AI_BIEU_PHIEN_DICH_VIEN.png" alt="QR 0309"></td>
+    <td class="link"><a href="guests/0309_AI_BIEU_PHIEN_DICH_VIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0310</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG TỔNG CỤC CNQP</td>
+    <td class="title"></td>
+    <td class="seat">L1</td>
+    <td class="qr"><img src="qr/0310_THU_KY_THU_TRUONG_TONG_CUC_CNQP.png" alt="QR 0310"></td>
+    <td class="link"><a href="guests/0310_THU_KY_THU_TRUONG_TONG_CUC_CNQP.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0311</td>
+    <td class="name">THƯ KÝ THỦ TRƯỞNG TỔNG CỤC HC-KT</td>
+    <td class="title"></td>
+    <td class="seat">L3</td>
+    <td class="qr"><img src="qr/0311_THU_KY_THU_TRUONG_TONG_CUC_HC-KT.png" alt="QR 0311"></td>
+    <td class="link"><a href="guests/0311_THU_KY_THU_TRUONG_TONG_CUC_HC-KT.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0312</td>
+    <td class="name">THƯ KÝ PHÓ THỦ TƯỚNG</td>
+    <td class="title"></td>
+    <td class="seat">L2</td>
+    <td class="qr"><img src="qr/0312_THU_KY_PHO_THU_TUONG.png" alt="QR 0312"></td>
+    <td class="link"><a href="guests/0312_THU_KY_PHO_THU_TUONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0313</td>
+    <td class="name">THƯ KÝ PHÓ CHỦ TỊCH QUỐC HỘI</td>
+    <td class="title"></td>
+    <td class="seat">L4</td>
+    <td class="qr"><img src="qr/0313_THU_KY_PHO_CHU_TICH_QUOC_HOI.png" alt="QR 0313"></td>
+    <td class="link"><a href="guests/0313_THU_KY_PHO_CHU_TICH_QUOC_HOI.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0314</td>
+    <td class="name">THƯ KÝ QUÂN CHỦNG PHÒNG KHÔNG KHÔNG QUÂN</td>
+    <td class="title"></td>
+    <td class="seat">L6</td>
+    <td class="qr"><img src="qr/0314_THU_KY_QUAN_CHUNG_PHONG_KHONG_KHONG_QUAN.png" alt="QR 0314"></td>
+    <td class="link"><a href="guests/0314_THU_KY_QUAN_CHUNG_PHONG_KHONG_KHONG_QUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0315</td>
+    <td class="name">THƯ KÝ QUÂN CHỦNG HẢI QUÂN</td>
+    <td class="title"></td>
+    <td class="seat">L8</td>
+    <td class="qr"><img src="qr/0315_THU_KY_QUAN_CHUNG_HAI_QUAN.png" alt="QR 0315"></td>
+    <td class="link"><a href="guests/0315_THU_KY_QUAN_CHUNG_HAI_QUAN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0316</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH BỘ ĐỘI BIÊN PHÒNG</td>
+    <td class="title"></td>
+    <td class="seat">L10</td>
+    <td class="qr"><img src="qr/0316_THU_KY_BO_TU_LENH_BO_OI_BIEN_PHONG.png" alt="QR 0316"></td>
+    <td class="link"><a href="guests/0316_THU_KY_BO_TU_LENH_BO_OI_BIEN_PHONG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0317</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH CẢNH SÁT BIỂN</td>
+    <td class="title"></td>
+    <td class="seat">L12</td>
+    <td class="qr"><img src="qr/0317_THU_KY_BO_TU_LENH_CANH_SAT_BIEN.png" alt="QR 0317"></td>
+    <td class="link"><a href="guests/0317_THU_KY_BO_TU_LENH_CANH_SAT_BIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0318</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH QUÂN KHU THỦ ĐÔ</td>
+    <td class="title"></td>
+    <td class="seat">L14</td>
+    <td class="qr"><img src="qr/0318_THU_KY_BO_TU_LENH_QUAN_KHU_THU_O.png" alt="QR 0318"></td>
+    <td class="link"><a href="guests/0318_THU_KY_BO_TU_LENH_QUAN_KHU_THU_O.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0319</td>
+    <td class="name">THƯ KÝ BỘ TƯ LỆNH TÁC CHIẾN KHÔNG GIAN MẠNG</td>
+    <td class="title"></td>
+    <td class="seat">L16</td>
+    <td class="qr"><img src="qr/0319_THU_KY_BO_TU_LENH_TAC_CHIEN_KHONG_GIAN_MANG.png" alt="QR 0319"></td>
+    <td class="link"><a href="guests/0319_THU_KY_BO_TU_LENH_TAC_CHIEN_KHONG_GIAN_MANG.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0320</td>
+    <td class="name">THƯ KÝ QUÂN KHU 1</td>
+    <td class="title">QUÂN ĐỘI HOÀNG GIA CAMPUCHIA</td>
+    <td class="seat">L26</td>
+    <td class="qr"><img src="qr/0320_THU_KY_QUAN_KHU_1.png" alt="QR 0320"></td>
+    <td class="link"><a href="guests/0320_THU_KY_QUAN_KHU_1.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0321</td>
+    <td class="name">THƯ KÝ QUÂN KHU 4</td>
+    <td class="title">QUÂN ĐỘI HOÀNG GIA CAMPUCHIA</td>
+    <td class="seat">L28</td>
+    <td class="qr"><img src="qr/0321_THU_KY_QUAN_KHU_4.png" alt="QR 0321"></td>
+    <td class="link"><a href="guests/0321_THU_KY_QUAN_KHU_4.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0322</td>
+    <td class="name">ĐẠI BIỂU PHIÊN DỊCH VIÊN</td>
+    <td class="title"></td>
+    <td class="seat">L30</td>
+    <td class="qr"><img src="qr/0322_AI_BIEU_PHIEN_DICH_VIEN.png" alt="QR 0322"></td>
+    <td class="link"><a href="guests/0322_AI_BIEU_PHIEN_DICH_VIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0323</td>
+    <td class="name">ĐẠI BIỂU PHIÊN DỊCH VIÊN</td>
+    <td class="title"></td>
+    <td class="seat">L32</td>
+    <td class="qr"><img src="qr/0323_AI_BIEU_PHIEN_DICH_VIEN.png" alt="QR 0323"></td>
+    <td class="link"><a href="guests/0323_AI_BIEU_PHIEN_DICH_VIEN.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0324</td>
+    <td class="name">THƯ KÝ QUÂN ĐOÀN 34</td>
+    <td class="title"></td>
+    <td class="seat">M14</td>
+    <td class="qr"><img src="qr/0324_THU_KY_QUAN_OAN_34.png" alt="QR 0324"></td>
+    <td class="link"><a href="guests/0324_THU_KY_QUAN_OAN_34.html">Mở</a></td>
+  </tr>
+  <tr>
+    <td class="uid">0325</td>
+    <td class="name">THƯ KÝ QUÂN ĐOÀN 12</td>
+    <td class="title"></td>
+    <td class="seat">M16</td>
+    <td class="qr"><img src="qr/0325_THU_KY_QUAN_OAN_12.png" alt="QR 0325"></td>
+    <td class="link"><a href="guests/0325_THU_KY_QUAN_OAN_12.html">Mở</a></td>
+  </tr>
+</tbody>
+  </table>
+</body>
+</html>
