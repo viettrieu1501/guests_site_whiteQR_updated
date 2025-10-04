@@ -3,7 +3,7 @@ import qrcode
 
 GUESTS_DIR = 'guests'
 QR_DIR = 'qr'
-BASE_URL = 'https://viettrieu1501.github.io/whiteQR/guests/'
+BASE_URL = 'https://viettrieu1501.github.io/guests_site_whiteQR_updated/guests/'
 
 # Xóa tất cả file .html trong thư mục qr
 for filename in os.listdir(QR_DIR):
